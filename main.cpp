@@ -34,15 +34,25 @@
 //#include "solution106.h"
 //#include "solution162.h"
 //#include "solution062.h"
-#include "solution063.h"
+//#include "solution063.h"
+//#include "solution120.h"
+#include "solution042.h"
 
 using namespace std;
 
 int main()
 {
-    Solution063 s063;
-    vector< vector<int> > vec = {{0,0,0},{0,1,0},{0,0,0}};
-    cout<<s063.uniquePathsWithObstacles(vec)<<endl;
+    Solution042 s042;
+    vector<int> vec = {0,1,0,2,1,0,1,3,2,1,2,1};
+    cout<<s042.trap(vec)<<endl;
+//    Solution120 s120;
+////    vector< vector<int> > vec = {{2},{3,4},{6,5,7},{4,1,8,3}};
+////    vector< vector<int> > vec = {{-1},{2,3},{1,-1,-3}};
+//    vector< vector<int> > vec = {{1},{2,3}};
+//    cout<<s120.minimumTotal(vec)<<endl;
+//    Solution063 s063;
+//    vector< vector<int> > vec = {{0,0,0},{0,1,0},{0,0,0}};
+//    cout<<s063.uniquePathsWithObstacles(vec)<<endl;
 //    Solution062 s062;
 //    cout<<s062.uniquePaths(2,2)<<endl;
 //    Solution162 s162;

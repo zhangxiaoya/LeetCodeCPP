@@ -32,15 +32,18 @@
 //#include "solution011.h"
 //#include "solution105.h"
 //#include "solution106.h"
-#include "solution162.h"
+//#include "solution162.h"
+#include "solution062.h"
 
 using namespace std;
 
 int main()
 {
-    Solution162 s162;
-    vector<int> vec = {1, 2, 3, 1};
-    cout<<s162.findPeakElement(vec)<<endl;
+    Solution062 s062;
+    cout<<s062.uniquePaths(2,2)<<endl;
+//    Solution162 s162;
+//    vector<int> vec = {1, 2, 3, 1};
+//    cout<<s162.findPeakElement(vec)<<endl;
 //    Solution106 s106;
 //    vector<int> v1 = {2,1};
 //    vector<int> v2 = {2,1};

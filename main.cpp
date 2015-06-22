@@ -39,16 +39,20 @@
 //#include "solution042.h"
 //#include "solution078.h"
 //#include "solution090.h"
-#include "solution034.h"
+//#include "solution034.h"
+#include "solution035.h"
 
 using namespace std;
 
 int main()
 {
-    Solution034 s034;
-    vector<int> v = {1,2,3,4,5};
-    vector<int> res = s034.searchRange(v,0);
-    cout<<res[0]<<" "<<res[1]<<endl;
+    Solution035 s035;
+    vector<int> v = {1,3};
+    cout<<s035.searchInsert(v,2)<<endl;
+//    Solution034 s034;
+//    vector<int> v = {1,2,3,4,5};
+//    vector<int> res = s034.searchRange(v,0);
+//    cout<<res[0]<<" "<<res[1]<<endl;
 //    Solution078 s078;
 //    vector<int> v = {1,2,3};
 //    vector<vector<int>> res = s078.subsets(v);

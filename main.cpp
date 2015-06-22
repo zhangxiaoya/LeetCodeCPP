@@ -36,15 +36,34 @@
 //#include "solution062.h"
 //#include "solution063.h"
 //#include "solution120.h"
-#include "solution042.h"
+//#include "solution042.h"
+//#include "solution078.h"
+#include "solution090.h"
 
 using namespace std;
 
 int main()
 {
-    Solution042 s042;
-    vector<int> vec = {0,1,0,2,1,0,1,3,2,1,2,1};
-    cout<<s042.trap(vec)<<endl;
+//    Solution078 s078;
+//    vector<int> v = {1,2,3};
+//    vector<vector<int>> res = s078.subsets(v);
+    Solution090 s090;
+    vector<int> v = {1,2,2};
+    vector<vector<int>> res = s090.subsetsWithDup(v);
+
+    auto it = res.begin();
+    for(;it!=res.end();++it)
+    {
+        auto itt = (*it).begin();
+        for(;itt != (*it).end();++itt)
+        {
+            cout<<*itt<<" ";
+        }
+        cout<<endl;
+    }
+//    Solution042 s042;
+//    vector<int> vec = {0,1,0,2,1,0,1,3,2,1,2,1};
+//    cout<<s042.trap(vec)<<endl;
 //    Solution120 s120;
 ////    vector< vector<int> > vec = {{2},{3,4},{6,5,7},{4,1,8,3}};
 ////    vector< vector<int> > vec = {{-1},{2,3},{1,-1,-3}};

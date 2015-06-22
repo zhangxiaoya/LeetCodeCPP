@@ -1,6 +1,5 @@
 #include "solution220.h"
-#include <math.h>
-
+#include <cmath>
 
 Solution220::Solution220()
 {

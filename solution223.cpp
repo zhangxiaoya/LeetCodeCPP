@@ -1,13 +1,13 @@
 #include "solution223.h"
-#include <math.h>
-
+#include <cmath>
+using namespace std;
 Solution223::Solution223()
 {
 }
 
 int Solution223::computeArea(int A, int B, int C, int D, int E, int F, int G, int H)
 {
-    int squre1,squre2,sumqure;
+    int squre1,squre2;
 
     int heigh1 = abs(D - B);
     int width1 = abs(A - C);

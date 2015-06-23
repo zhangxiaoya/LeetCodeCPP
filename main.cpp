@@ -41,19 +41,49 @@
 //#include "solution090.h"
 //#include "solution034.h"
 //#include "solution035.h"
-#include "solution054.h"
+//#include "solution054.h"
+//#include "solution059.h"
+#include "solution073.h"
 
 using namespace std;
 
 int main()
 {
+    Solution073 s073;
+    vector<vector<int>> v = {{1,2,3},{4,0,6},{7,8,9}};
+//    for(auto it = v.begin();it != v.end();++it)
+//    {
+//        for(auto itt = (*it).begin();itt != (*it).end();++itt)
+//        {
+//            cout<<*itt<<" ";
+//        }
+//        cout<<endl;
+//    }
+    s073.setZeroes(v);
+    for(auto it = v.begin();it != v.end();++it)
+    {
+        for(auto itt = (*it).begin();itt != (*it).end();++itt)
+        {
+            cout<<*itt<<" ";
+        }
+        cout<<endl;
+    }
+//    Solution059 s059;
+//    vector<vector<int>> res = s059.generateMatrix(3);
+//    for(auto it = res.begin();it != res.end();++it)
+//    {
+//        for(auto itt = (*it).begin();itt != (*it).end();++itt)
+//            cout<<*itt<<" ";
+//        cout<<endl;
+//    }
+
 //    vector<vector<int>> ma = {{1,2,3},{4,5,6},{7,8,9}};
-    vector<vector<int>> ma = {{2,5,8},{4,0,-1}};
-    Solution054 s054;
-    vector<int> res = s054.spiralOrder(ma);
-    for(auto it = res.begin();it != res.end();++it)
-        cout<<*it<<" ";
-    cout<<endl;
+//    vector<vector<int>> ma = {{2,5,8},{4,0,-1}};
+//    Solution054 s054;
+//    vector<int> res = s054.spiralOrder(ma);
+//    for(auto it = res.begin();it != res.end();++it)
+//        cout<<*it<<" ";
+//    cout<<endl;
 //    Solution035 s035;
 //    vector<int> v = {1,3};
 //    cout<<s035.searchInsert(v,2)<<endl;

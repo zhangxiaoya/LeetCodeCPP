@@ -49,7 +49,8 @@ SOURCES += main.cpp \
     solution078.cpp \
     solution090.cpp \
     solution034.cpp \
-    solution035.cpp
+    solution035.cpp \
+    solution054.cpp
 
 HEADERS += \
     solution006.h \
@@ -97,7 +98,8 @@ HEADERS += \
     solution078.h \
     solution090.h \
     solution034.h \
-    solution035.h
+    solution035.h \
+    solution054.h
 
 
 

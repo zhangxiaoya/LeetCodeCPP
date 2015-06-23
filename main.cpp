@@ -40,15 +40,23 @@
 //#include "solution078.h"
 //#include "solution090.h"
 //#include "solution034.h"
-#include "solution035.h"
+//#include "solution035.h"
+#include "solution054.h"
 
 using namespace std;
 
 int main()
 {
-    Solution035 s035;
-    vector<int> v = {1,3};
-    cout<<s035.searchInsert(v,2)<<endl;
+//    vector<vector<int>> ma = {{1,2,3},{4,5,6},{7,8,9}};
+    vector<vector<int>> ma = {{2,5,8},{4,0,-1}};
+    Solution054 s054;
+    vector<int> res = s054.spiralOrder(ma);
+    for(auto it = res.begin();it != res.end();++it)
+        cout<<*it<<" ";
+    cout<<endl;
+//    Solution035 s035;
+//    vector<int> v = {1,3};
+//    cout<<s035.searchInsert(v,2)<<endl;
 //    Solution034 s034;
 //    vector<int> v = {1,2,3,4,5};
 //    vector<int> res = s034.searchRange(v,0);

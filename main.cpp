@@ -43,14 +43,21 @@
 //#include "solution035.h"
 //#include "solution054.h"
 //#include "solution059.h"
-#include "solution073.h"
+//#include "solution073.h"
+#include "solution228.h"
 
 using namespace std;
 
 int main()
 {
-    Solution073 s073;
-    vector<vector<int>> v = {{1,2,3},{4,0,6},{7,8,9}};
+    Solution228 s228;
+    vector<int> v = {0,3};
+    vector<string> res = s228.summaryRanges(v);
+    for(auto i = res.begin();i!=res.end();++i)
+        cout<<*i<<" ";
+    cout<<endl;
+//    Solution073 s073;
+//    vector<vector<int>> v = {{1,2,3},{4,0,6},{7,8,9}};
 //    for(auto it = v.begin();it != v.end();++it)
 //    {
 //        for(auto itt = (*it).begin();itt != (*it).end();++itt)
@@ -59,15 +66,15 @@ int main()
 //        }
 //        cout<<endl;
 //    }
-    s073.setZeroes(v);
-    for(auto it = v.begin();it != v.end();++it)
-    {
-        for(auto itt = (*it).begin();itt != (*it).end();++itt)
-        {
-            cout<<*itt<<" ";
-        }
-        cout<<endl;
-    }
+//    s073.setZeroes(v);
+//    for(auto it = v.begin();it != v.end();++it)
+//    {
+//        for(auto itt = (*it).begin();itt != (*it).end();++itt)
+//        {
+//            cout<<*itt<<" ";
+//        }
+//        cout<<endl;
+//    }
 //    Solution059 s059;
 //    vector<vector<int>> res = s059.generateMatrix(3);
 //    for(auto it = res.begin();it != res.end();++it)

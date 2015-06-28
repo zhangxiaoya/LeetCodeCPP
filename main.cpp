@@ -44,18 +44,26 @@
 //#include "solution054.h"
 //#include "solution059.h"
 //#include "solution073.h"
-#include "solution228.h"
+//#include "solution228.h"
+#include "solution075.h"
 
 using namespace std;
 
 int main()
 {
-    Solution228 s228;
-    vector<int> v = {0,3};
-    vector<string> res = s228.summaryRanges(v);
-    for(auto i = res.begin();i!=res.end();++i)
-        cout<<*i<<" ";
+    Solution075 s075;
+    vector<int> v = {0,1,2,0,1,2,0,1,2,0,1,2};
+//    Solution075 s075;
+    s075.sortColors(v);
+    for(int i = 0;i!= v.size();++i)
+        cout<<v[i]<<" ";
     cout<<endl;
+//    Solution228 s228;
+//    vector<int> v = {0,3};
+//    vector<string> res = s228.summaryRanges(v);
+//    for(auto i = res.begin();i!=res.end();++i)
+//        cout<<*i<<" ";
+//    cout<<endl;
 //    Solution073 s073;
 //    vector<vector<int>> v = {{1,2,3},{4,0,6},{7,8,9}};
 //    for(auto it = v.begin();it != v.end();++it)

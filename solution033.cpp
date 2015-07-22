@@ -7,7 +7,6 @@ Solution033::Solution033()
 
 int Solution033::search(vector<int> &nums, int target)
 {
-<<<<<<< HEAD
     int len = nums.size();
     if(len < 1)
         return -1;
@@ -34,7 +33,6 @@ int Solution033::search(vector<int> &nums, int target)
         }
     }
     return nums[beg] == target?beg:-1;
-=======
     if(nums.empty())
         return -1;
     int low = 0;
@@ -60,5 +58,4 @@ int Solution033::search(vector<int> &nums, int target)
         }
     }
     return -1;
->>>>>>> 6025877a50dba8f038530c69736cf284e77a1a01
 }

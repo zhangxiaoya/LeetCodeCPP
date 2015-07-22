@@ -1,6 +1,7 @@
 #ifndef SOLUTION237_H
 #define SOLUTION237_H
 
+#define NULL nullptr
 // Definition for singly-linked list.
 struct ListNode {
     int val;

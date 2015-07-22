@@ -44,24 +44,31 @@
 //#include "solution054.h"
 //#include "solution059.h"
 //#include "solution073.h"
-<<<<<<< HEAD
-=======
 //#include "solution228.h"
 //#include "solution075.h"
->>>>>>> 6025877a50dba8f038530c69736cf284e77a1a01
-#include "solution033.h"
+//#include "solution033.h"
+//#include "solution231.h"
+#include "solution232.h"
 
 using namespace std;
 
 int main()
 {
-    Solution033 s033;
-<<<<<<< HEAD
-    vector<int> v={4,5,6,7,0,1,2};
-    cout<<s033.search(v,3)<<endl;
-=======
-    vector<int> v = {4 ,5 ,6 ,7 ,0, 1, 2};
-    cout<<s033.search(v,4)<<endl;
+    Solution232 s232;
+    s232.push(1);
+    cout<<s232.peek();
+
+//    Solution231 s231;
+//    if(s231.isPowerOfTwo(2))
+//        cout<<"Yes"<<endl;
+//    else
+//        cout<<"No"<<endl;
+//    Solution033 s033;
+//    vector<int> v={4,5,6,7,0,1,2};
+//    cout<<s033.search(v,3)<<endl;
+
+//    vector<int> v = {4 ,5 ,6 ,7 ,0, 1, 2};
+//    cout<<s033.search(v,4)<<endl;
 //    Solution075 s075;
 //    vector<int> v = {0,1,2,0,1,2,0,1,2,0,1,2};
 //    s075.sortColors(v);
@@ -74,7 +81,6 @@ int main()
 //    for(auto i = res.begin();i!=res.end();++i)
 //        cout<<*i<<" ";
 //    cout<<endl;
->>>>>>> 6025877a50dba8f038530c69736cf284e77a1a01
 //    Solution073 s073;
 //    vector<vector<int>> v = {{1,2,3},{4,0,6},{7,8,9}};
 //    for(auto it = v.begin();it != v.end();++it)

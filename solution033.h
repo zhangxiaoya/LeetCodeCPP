@@ -2,7 +2,9 @@
 #define SOLUTION033_H
 
 #include <vector>
+
 using std::vector;
+
 class Solution033
 {
 public:

@@ -48,15 +48,46 @@
 //#include "solution075.h"
 //#include "solution033.h"
 //#include "solution231.h"
-#include "solution232.h"
+//#include "solution232.h"
+//#include "solution242.h"
+#include "solution206.h"
 
 using namespace std;
 
 int main()
 {
-    Solution232 s232;
-    s232.push(1);
-    cout<<s232.peek();
+    Solution206 s206;
+    ListNode* head = new ListNode(1);
+    ListNode* p = new ListNode(2);
+    head->next = p;
+    ListNode* q = new ListNode(3);
+    p->next = q;
+    q = head;
+    while(q!= nullptr)
+    {
+        cout<<q->val<<"\t";
+        q = q->next;
+    }
+    cout<<endl;
+
+    q = s206.reverseList(head);
+    while(q != nullptr)
+    {
+        cout<<q->val<<"\t";
+        q = q->next;
+    }
+    cout<<endl;
+
+//    Solution242 s242;
+//    string s = "anagram",t = "nagaram";
+//    if(s242.isAnagram(s,t))
+//        cout<<"Yes"<<endl;
+//    else
+//        cout<<"No"<<endl;
+
+//    Solution232 s232;
+//    s232.push(1);
+//    cout<<s232.peek();
 
 //    Solution231 s231;
 //    if(s231.isPowerOfTwo(2))

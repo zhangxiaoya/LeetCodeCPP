@@ -51,39 +51,45 @@
 //#include "solution232.h"
 //#include "solution242.h"
 //#include "solution206.h"
-#include "solution203.h"
+//#include "solution203.h"
+#include "solution263.h"
 
 using namespace std;
 
 int main()
 {
-    Solution203 s203;
-    int nums[] = {1,2,2,1};
-//    int nums[] = {1 , 2 , 6 , 3 , 4 , 5 , 6};
-    ListNode* head = new ListNode(nums[0]);
-    ListNode *p,*q;
-    q = head;
-    for(int i = 1;i < sizeof(nums)/sizeof(int);++i)
-    {
-        p = new ListNode(nums[i]);
-        q->next = p;
-        q = p;
-    }
-    q=head;
-    while(q != NULL)
-    {
-        cout<<q->val<<"\t";
-        q = q->next;
-    }
-    cout<<endl;
-    q = s203.removeElements(head,2);
+    Solution263 s263;
+    if(s263.isUgly(14))
+        cout<<"Yes"<<endl;
+    else
+        cout<<"No"<<endl;
+//    Solution203 s203;
+//    int nums[] = {1,2,2,1};
+////    int nums[] = {1 , 2 , 6 , 3 , 4 , 5 , 6};
+//    ListNode* head = new ListNode(nums[0]);
+//    ListNode *p,*q;
+//    q = head;
+//    for(int i = 1;i < sizeof(nums)/sizeof(int);++i)
+//    {
+//        p = new ListNode(nums[i]);
+//        q->next = p;
+//        q = p;
+//    }
+//    q=head;
+//    while(q != NULL)
+//    {
+//        cout<<q->val<<"\t";
+//        q = q->next;
+//    }
+//    cout<<endl;
+//    q = s203.removeElements(head,2);
 
-    while(q != NULL)
-    {
-        cout<<q->val<<"\t";
-        q = q->next;
-    }
-    cout<<endl;
+//    while(q != NULL)
+//    {
+//        cout<<q->val<<"\t";
+//        q = q->next;
+//    }
+//    cout<<endl;
 
 
 //    Solution206 s206;

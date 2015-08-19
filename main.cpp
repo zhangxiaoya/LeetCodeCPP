@@ -54,14 +54,20 @@
 //#include "solution203.h"
 //#include "solution263.h"
 //#include "solution264.h"
-#include "solution258.h"
+//#include "solution258.h"
+#include "solution257.h"
 
 using namespace std;
 
 int main()
 {
-    Solution258 s258;
-    cout<<s258.addDigits(38)<<endl;
+    TreeNode* root = new TreeNode(1);
+    Solution257 s257;
+    vector<string> s = s257.binaryTreePaths(root);
+    cout<<s[0]<<endl;
+
+//    Solution258 s258;
+//    cout<<s258.addDigits(38)<<endl;
 //    Solution264 s264;
 //    cout<<s264.nthUglyNumber(4)<<endl;
 //    Solution263 s263;

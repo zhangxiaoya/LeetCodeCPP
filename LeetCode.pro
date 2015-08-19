@@ -63,7 +63,8 @@ SOURCES += main.cpp \
     solution203.cpp \
     solution263.cpp \
     solution264.cpp \
-    solution258.cpp
+    solution258.cpp \
+    solution257.cpp
 
 HEADERS += \
     solution006.h \
@@ -125,7 +126,8 @@ HEADERS += \
     solution203.h \
     solution263.h \
     solution264.h \
-    solution258.h
+    solution258.h \
+    solution257.h
 
 
 

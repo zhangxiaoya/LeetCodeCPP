@@ -53,14 +53,17 @@
 //#include "solution206.h"
 //#include "solution203.h"
 //#include "solution263.h"
-#include "solution264.h"
+//#include "solution264.h"
+#include "solution258.h"
 
 using namespace std;
 
 int main()
 {
-    Solution264 s264;
-    cout<<s264.nthUglyNumber(4)<<endl;
+    Solution258 s258;
+    cout<<s258.addDigits(38)<<endl;
+//    Solution264 s264;
+//    cout<<s264.nthUglyNumber(4)<<endl;
 //    Solution263 s263;
 //    if(s263.isUgly(14))
 //        cout<<"Yes"<<endl;

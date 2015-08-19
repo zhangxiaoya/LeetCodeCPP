@@ -52,17 +52,20 @@
 //#include "solution242.h"
 //#include "solution206.h"
 //#include "solution203.h"
-#include "solution263.h"
+//#include "solution263.h"
+#include "solution264.h"
 
 using namespace std;
 
 int main()
 {
-    Solution263 s263;
-    if(s263.isUgly(14))
-        cout<<"Yes"<<endl;
-    else
-        cout<<"No"<<endl;
+    Solution264 s264;
+    cout<<s264.nthUglyNumber(4)<<endl;
+//    Solution263 s263;
+//    if(s263.isUgly(14))
+//        cout<<"Yes"<<endl;
+//    else
+//        cout<<"No"<<endl;
 //    Solution203 s203;
 //    int nums[] = {1,2,2,1};
 ////    int nums[] = {1 , 2 , 6 , 3 , 4 , 5 , 6};

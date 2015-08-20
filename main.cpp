@@ -55,21 +55,32 @@
 //#include "solution263.h"
 //#include "solution264.h"
 //#include "solution258.h"
-#include "solution257.h"
+//#include "solution257.h"
+#include "solution234.h"
 
 using namespace std;
 
 int main()
 {
-    TreeNode* root = new TreeNode(-100);
-    root->left = new TreeNode(2);
-    root->right = new TreeNode(3);
-    root->left->left = new TreeNode(4);
-    root->left->left->right = new TreeNode(5);
-    Solution257 s257;
-    vector<string> s = s257.binaryTreePaths(root);
-    for(int i=0;i<s.size();++i)
-        cout<<s[i]<<endl;
+    Solution234 s234;
+    ListNode* head = new ListNode(1);
+    head->next = new ListNode(0);
+    head->next->next = new ListNode(1);
+//    head->next->next->next = new ListNode(1);
+    if(s234.isPalindrome(head))
+        cout<<"Yes"<<endl;
+    else
+        cout<<"No"<<endl;
+
+//    TreeNode* root = new TreeNode(-100);
+//    root->left = new TreeNode(2);
+//    root->right = new TreeNode(3);
+//    root->left->left = new TreeNode(4);
+//    root->left->left->right = new TreeNode(5);
+//    Solution257 s257;
+//    vector<string> s = s257.binaryTreePaths(root);
+//    for(int i=0;i<s.size();++i)
+//        cout<<s[i]<<endl;
 
 //    Solution258 s258;
 //    cout<<s258.addDigits(38)<<endl;

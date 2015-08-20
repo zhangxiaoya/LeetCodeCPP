@@ -61,10 +61,15 @@ using namespace std;
 
 int main()
 {
-    TreeNode* root = new TreeNode(1);
+    TreeNode* root = new TreeNode(-100);
+    root->left = new TreeNode(2);
+    root->right = new TreeNode(3);
+    root->left->left = new TreeNode(4);
+    root->left->left->right = new TreeNode(5);
     Solution257 s257;
     vector<string> s = s257.binaryTreePaths(root);
-    cout<<s[0]<<endl;
+    for(int i=0;i<s.size();++i)
+        cout<<s[i]<<endl;
 
 //    Solution258 s258;
 //    cout<<s258.addDigits(38)<<endl;

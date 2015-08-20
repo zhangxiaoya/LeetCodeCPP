@@ -18,6 +18,11 @@ struct TreeNode {
     TreeNode *right;
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
+typedef enum{L,R} tagtype;
+struct stacknode{
+    TreeNode* ptr;
+    tagtype tag;
+};
 
 class Solution257
 {

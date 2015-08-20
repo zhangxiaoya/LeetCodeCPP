@@ -56,21 +56,28 @@
 //#include "solution264.h"
 //#include "solution258.h"
 //#include "solution257.h"
-#include "solution234.h"
+//#include "solution234.h"
+#include "solution202.h"
 
 using namespace std;
 
 int main()
 {
-    Solution234 s234;
-    ListNode* head = new ListNode(1);
-    head->next = new ListNode(0);
-    head->next->next = new ListNode(1);
-//    head->next->next->next = new ListNode(1);
-    if(s234.isPalindrome(head))
+    Solution202 s202;
+    if(s202.isHappy(20))
         cout<<"Yes"<<endl;
     else
         cout<<"No"<<endl;
+
+//    Solution234 s234;
+//    ListNode* head = new ListNode(1);
+//    head->next = new ListNode(0);
+//    head->next->next = new ListNode(1);
+////    head->next->next->next = new ListNode(1);
+//    if(s234.isPalindrome(head))
+//        cout<<"Yes"<<endl;
+//    else
+//        cout<<"No"<<endl;
 
 //    TreeNode* root = new TreeNode(-100);
 //    root->left = new TreeNode(2);

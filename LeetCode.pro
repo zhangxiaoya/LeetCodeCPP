@@ -53,10 +53,22 @@ SOURCES += main.cpp \
     solution054.cpp \
     solution059.cpp \
     solution073.cpp \
+    solution237.cpp \
     solution228.cpp \
     solution075.cpp \
     solution081.cpp \
     solution004.cpp
+    solution231.cpp \
+    solution232.cpp \
+    solution242.cpp \
+    solution206.cpp \
+    solution203.cpp \
+    solution263.cpp \
+    solution264.cpp \
+    solution258.cpp \
+    solution257.cpp \
+    solution234.cpp \
+    solution202.cpp
 
 HEADERS += \
     solution006.h \
@@ -108,10 +120,23 @@ HEADERS += \
     solution054.h \
     solution059.h \
     solution073.h \
+    solution237.h \
     solution228.h \
     solution075.h \
     solution081.h \
     solution004.h
+    solution231.h \
+    solution232.h \
+    solution242.h \
+    solution206.h \
+    solution203.h \
+    solution263.h \
+    solution264.h \
+    solution258.h \
+    solution257.h \
+    solution234.h \
+    solution202.h
+
 
 
 

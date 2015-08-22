@@ -47,16 +47,137 @@
 //#include "solution228.h"
 //#include "solution075.h"
 //#include "solution033.h"
+<<<<<<< HEAD
 #include "solution081.h"
+=======
+//#include "solution231.h"
+//#include "solution232.h"
+//#include "solution242.h"
+//#include "solution206.h"
+//#include "solution203.h"
+//#include "solution263.h"
+//#include "solution264.h"
+//#include "solution258.h"
+//#include "solution257.h"
+//#include "solution234.h"
+#include "solution202.h"
 
 using namespace std;
 
 int main()
 {
-    Solution081 s081;
-    vector<int> v = {1,3,5};
-    cout<<s081.search(v,1)<<endl;
+//    Solution081 s081;
+//    vector<int> v = {1,3,5};
+//    cout<<s081.search(v,1)<<endl;
 //    Solution033 s033;
+
+//    Solution202 s202;
+//    if(s202.isHappy(20))
+//        cout<<"Yes"<<endl;
+//    else
+//        cout<<"No"<<endl;
+
+//    Solution234 s234;
+//    ListNode* head = new ListNode(1);
+//    head->next = new ListNode(0);
+//    head->next->next = new ListNode(1);
+////    head->next->next->next = new ListNode(1);
+//    if(s234.isPalindrome(head))
+//        cout<<"Yes"<<endl;
+//    else
+//        cout<<"No"<<endl;
+
+//    TreeNode* root = new TreeNode(-100);
+//    root->left = new TreeNode(2);
+//    root->right = new TreeNode(3);
+//    root->left->left = new TreeNode(4);
+//    root->left->left->right = new TreeNode(5);
+//    Solution257 s257;
+//    vector<string> s = s257.binaryTreePaths(root);
+//    for(int i=0;i<s.size();++i)
+//        cout<<s[i]<<endl;
+
+//    Solution258 s258;
+//    cout<<s258.addDigits(38)<<endl;
+//    Solution264 s264;
+//    cout<<s264.nthUglyNumber(4)<<endl;
+//    Solution263 s263;
+//    if(s263.isUgly(14))
+//        cout<<"Yes"<<endl;
+//    else
+//        cout<<"No"<<endl;
+//    Solution203 s203;
+//    int nums[] = {1,2,2,1};
+////    int nums[] = {1 , 2 , 6 , 3 , 4 , 5 , 6};
+//    ListNode* head = new ListNode(nums[0]);
+//    ListNode *p,*q;
+//    q = head;
+//    for(int i = 1;i < sizeof(nums)/sizeof(int);++i)
+//    {
+//        p = new ListNode(nums[i]);
+//        q->next = p;
+//        q = p;
+//    }
+//    q=head;
+//    while(q != NULL)
+//    {
+//        cout<<q->val<<"\t";
+//        q = q->next;
+//    }
+//    cout<<endl;
+//    q = s203.removeElements(head,2);
+
+//    while(q != NULL)
+//    {
+//        cout<<q->val<<"\t";
+//        q = q->next;
+//    }
+//    cout<<endl;
+
+
+//    Solution206 s206;
+//    ListNode* head = new ListNode(1);
+//    ListNode* p = new ListNode(2);
+//    head->next = p;
+//    ListNode* q = new ListNode(3);
+//    p->next = q;
+//    q = head;
+//    while(q!= nullptr)
+//    {
+//        cout<<q->val<<"\t";
+//        q = q->next;
+//    }
+//    cout<<endl;
+
+//    q = s206.reverseList(head);
+//    while(q != nullptr)
+//    {
+//        cout<<q->val<<"\t";
+//        q = q->next;
+//    }
+//    cout<<endl;
+
+//    Solution242 s242;
+//    string s = "anagram",t = "nagaram";
+//    if(s242.isAnagram(s,t))
+//        cout<<"Yes"<<endl;
+//    else
+//        cout<<"No"<<endl;
+
+//    Solution232 s232;
+//    s232.push(1);
+//    cout<<s232.peek();
+
+//    Solution231 s231;
+//    if(s231.isPowerOfTwo(2))
+//        cout<<"Yes"<<endl;
+//    else
+//        cout<<"No"<<endl;
+//    Solution033 s033;
+//    vector<int> v={4,5,6,7,0,1,2};
+//    cout<<s033.search(v,3)<<endl;
+
+>>>>>>> 9f8de90254ef4e4274aeffb1fe9dd0a88773bee8
 //    vector<int> v = {4 ,5 ,6 ,7 ,0, 1, 2};
 //    cout<<s033.search(v,4)<<endl;
 //    Solution075 s075;

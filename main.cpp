@@ -46,15 +46,19 @@
 //#include "solution073.h"
 //#include "solution228.h"
 //#include "solution075.h"
-#include "solution033.h"
+//#include "solution033.h"
+#include "solution081.h"
 
 using namespace std;
 
 int main()
 {
-    Solution033 s033;
-    vector<int> v = {4 ,5 ,6 ,7 ,0, 1, 2};
-    cout<<s033.search(v,4)<<endl;
+    Solution081 s081;
+    vector<int> v = {1,3,5};
+    cout<<s081.search(v,1)<<endl;
+//    Solution033 s033;
+//    vector<int> v = {4 ,5 ,6 ,7 ,0, 1, 2};
+//    cout<<s033.search(v,4)<<endl;
 //    Solution075 s075;
 //    vector<int> v = {0,1,2,0,1,2,0,1,2,0,1,2};
 //    s075.sortColors(v);

@@ -60,12 +60,17 @@
 //#include "solution234.h"
 //#include "solution202.h"in
 #include "solution235.h"
+//#include "solution236.h"
 
 using namespace std;
 
+
+
 int main()
 {
+
     Solution235 s235;
+//    Solution236 s236;
     TreeNode* root = new TreeNode(6);
     root->left = new TreeNode(2);
     root->right = new TreeNode(8);
@@ -76,8 +81,9 @@ int main()
     root->left->right->left = new TreeNode(3);
     root->left->right->right = new TreeNode(5);
 
-    TreeNode* p = root->left;
-    TreeNode* q = p->left;
+    TreeNode* p = root->right->left;
+    TreeNode* q = root->right->right;
+//    TreeNode* res = s236.lowestCommonAncestor(root,p,q);
     TreeNode* res = s235.lowestCommonAncestor(root,p,q);
     cout<<res->val<<endl;
 //    Solution081 s081;

@@ -10,12 +10,6 @@ TreeNode* Solution235::lowestCommonAncestor(TreeNode *root, TreeNode *p, TreeNod
     if(root == NULL || p == NULL || q == NULL)
         return root;
     TreeNode* k = root;
-//    if(p->val > q->val)
-//    {
-//        int t = p->val;
-//        p->val = q->val;
-//        q->val = t;
-//    }
     while((k->val > p->val && k->val > q->val) || ((k->val < p->val && k->val < q->val)))
     {
         if(k->val > p->val)

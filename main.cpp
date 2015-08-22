@@ -47,9 +47,7 @@
 //#include "solution228.h"
 //#include "solution075.h"
 //#include "solution033.h"
-<<<<<<< HEAD
-#include "solution081.h"
-=======
+//#include "solution081.h"
 //#include "solution231.h"
 //#include "solution232.h"
 //#include "solution242.h"
@@ -60,12 +58,28 @@
 //#include "solution258.h"
 //#include "solution257.h"
 //#include "solution234.h"
-#include "solution202.h"
+//#include "solution202.h"in
+#include "solution235.h"
 
 using namespace std;
 
 int main()
 {
+    Solution235 s235;
+    TreeNode* root = new TreeNode(6);
+    root->left = new TreeNode(2);
+    root->right = new TreeNode(8);
+    root->left->left = new TreeNode(0);
+    root->left->right = new TreeNode(4);
+    root->right->left = new TreeNode(7);
+    root->right->right = new TreeNode(9);
+    root->left->right->left = new TreeNode(3);
+    root->left->right->right = new TreeNode(5);
+
+    TreeNode* p = root->left;
+    TreeNode* q = p->left;
+    TreeNode* res = s235.lowestCommonAncestor(root,p,q);
+    cout<<res->val<<endl;
 //    Solution081 s081;
 //    vector<int> v = {1,3,5};
 //    cout<<s081.search(v,1)<<endl;
@@ -177,7 +191,6 @@ int main()
 //    vector<int> v={4,5,6,7,0,1,2};
 //    cout<<s033.search(v,3)<<endl;
 
->>>>>>> 9f8de90254ef4e4274aeffb1fe9dd0a88773bee8
 //    vector<int> v = {4 ,5 ,6 ,7 ,0, 1, 2};
 //    cout<<s033.search(v,4)<<endl;
 //    Solution075 s075;

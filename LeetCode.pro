@@ -57,7 +57,8 @@ SOURCES += main.cpp \
     solution228.cpp \
     solution075.cpp \
     solution081.cpp \
-    solution004.cpp
+    solution004.cpp \
+    solution235.cpp \
     solution231.cpp \
     solution232.cpp \
     solution242.cpp \
@@ -68,7 +69,8 @@ SOURCES += main.cpp \
     solution258.cpp \
     solution257.cpp \
     solution234.cpp \
-    solution202.cpp
+    solution202.cpp \
+    solution236.cpp
 
 HEADERS += \
     solution006.h \
@@ -124,7 +126,8 @@ HEADERS += \
     solution228.h \
     solution075.h \
     solution081.h \
-    solution004.h
+    solution004.h \
+    solution235.h \
     solution231.h \
     solution232.h \
     solution242.h \
@@ -135,10 +138,7 @@ HEADERS += \
     solution258.h \
     solution257.h \
     solution234.h \
-    solution202.h
-
-
-
-
+    solution202.h \
+    solution236.h
 
 QMAKE_CXXFLAGS += -std=c++0x

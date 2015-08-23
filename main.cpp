@@ -63,23 +63,31 @@
 //#include "solution236.h"
 //#include "solution204.h"
 //#include "solution205.h"
-#include "solution101.h"
+//#include "solution101.h"
+#include "solution100.h"
 
 
 using namespace std;
 
 int main()
 {
-    Solution101 s101;
-    TreeNode* root = new TreeNode(1);
-    root->left = new TreeNode(2);
-    root->right = new TreeNode(2);
-    root->left->right = new TreeNode(3);
-    root->right->right = new TreeNode(3);
-    if(s101.isSymmetric(root))
+    Solution100 s100;
+    TreeNode* root1 = new TreeNode(1);
+    TreeNode* root2 = new TreeNode(1);
+    if(s100.isSameTree(root1,root2))
         cout<<"Yes"<<endl;
     else
         cout<<"No"<<endl;
+//    Solution101 s101;
+//    TreeNode* root = new TreeNode(1);
+//    root->left = new TreeNode(2);
+//    root->right = new TreeNode(2);
+//    root->left->right = new TreeNode(3);
+//    root->right->right = new TreeNode(3);
+//    if(s101.isSymmetric(root))
+//        cout<<"Yes"<<endl;
+//    else
+//        cout<<"No"<<endl;
 //    Solution205 s205;
 //    string s = "egg";
 //    string t = "foo";

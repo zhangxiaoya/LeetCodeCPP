@@ -58,34 +58,35 @@
 //#include "solution258.h"
 //#include "solution257.h"
 //#include "solution234.h"
-//#include "solution202.h"in
-#include "solution235.h"
+//#include "solution202.h"
+//#include "solution235.h"
 //#include "solution236.h"
+#include "solution204.h"
+
 
 using namespace std;
 
-
-
 int main()
 {
-
-    Solution235 s235;
+    Solution204 s204;
+    cout<<s204.countPrimes(3)<<endl;
+//    Solution235 s235;
 //    Solution236 s236;
-    TreeNode* root = new TreeNode(6);
-    root->left = new TreeNode(2);
-    root->right = new TreeNode(8);
-    root->left->left = new TreeNode(0);
-    root->left->right = new TreeNode(4);
-    root->right->left = new TreeNode(7);
-    root->right->right = new TreeNode(9);
-    root->left->right->left = new TreeNode(3);
-    root->left->right->right = new TreeNode(5);
+//    TreeNode* root = new TreeNode(6);
+//    root->left = new TreeNode(2);
+//    root->right = new TreeNode(8);
+//    root->left->left = new TreeNode(0);
+//    root->left->right = new TreeNode(4);
+//    root->right->left = new TreeNode(7);
+//    root->right->right = new TreeNode(9);
+//    root->left->right->left = new TreeNode(3);
+//    root->left->right->right = new TreeNode(5);
 
-    TreeNode* p = root->right->left;
-    TreeNode* q = root->right->right;
+//    TreeNode* p = root->right->left;
+//    TreeNode* q = root->right->right;
 //    TreeNode* res = s236.lowestCommonAncestor(root,p,q);
-    TreeNode* res = s235.lowestCommonAncestor(root,p,q);
-    cout<<res->val<<endl;
+//    TreeNode* res = s235.lowestCommonAncestor(root,p,q);
+//    cout<<res->val<<endl;
 //    Solution081 s081;
 //    vector<int> v = {1,3,5};
 //    cout<<s081.search(v,1)<<endl;

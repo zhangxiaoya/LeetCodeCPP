@@ -64,20 +64,35 @@
 //#include "solution204.h"
 //#include "solution205.h"
 //#include "solution101.h"
-#include "solution100.h"
-
+//#include "solution100.h"
+#include "solution102.h"
 
 using namespace std;
 
 int main()
 {
-    Solution100 s100;
-    TreeNode* root1 = new TreeNode(1);
-    TreeNode* root2 = new TreeNode(1);
-    if(s100.isSameTree(root1,root2))
-        cout<<"Yes"<<endl;
-    else
-        cout<<"No"<<endl;
+    Solution102 s102;
+    TreeNode* root = new TreeNode(3);
+    root->left = new TreeNode(9);
+    root->right = new TreeNode(20);
+    root->right->left = new TreeNode(15);
+    root->right->right = new TreeNode(7);
+    vector<vector<int> >res = s102.levelOrder(root);
+    vector<int> layer;
+    for(int i=0;i<res.size();++i)
+    {
+        layer = res[i];
+        for(int j=0;j<layer.size();++j)
+            cout<<layer[j]<<" ";
+        cout<<endl;
+    }
+//    Solution100 s100;
+//    TreeNode* root1 = new TreeNode(1);
+//    TreeNode* root2 = new TreeNode(1);
+//    if(s100.isSameTree(root1,root2))
+//        cout<<"Yes"<<endl;
+//    else
+//        cout<<"No"<<endl;
 //    Solution101 s101;
 //    TreeNode* root = new TreeNode(1);
 //    root->left = new TreeNode(2);

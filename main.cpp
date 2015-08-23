@@ -65,19 +65,22 @@
 //#include "solution205.h"
 //#include "solution101.h"
 //#include "solution100.h"
-#include "solution102.h"
+//#include "solution102.h"
+#include "solution103.h"
 
 using namespace std;
 
 int main()
 {
-    Solution102 s102;
+//    Solution102 s102;
+    Solution103 s103;
     TreeNode* root = new TreeNode(3);
     root->left = new TreeNode(9);
     root->right = new TreeNode(20);
     root->right->left = new TreeNode(15);
     root->right->right = new TreeNode(7);
-    vector<vector<int> >res = s102.levelOrder(root);
+//    vector<vector<int> >res = s102.levelOrder(root);
+    vector<vector<int> > res = s103.zigzagLevelOrder(root);
     vector<int> layer;
     for(int i=0;i<res.size();++i)
     {

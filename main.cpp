@@ -61,15 +61,34 @@
 //#include "solution202.h"
 //#include "solution235.h"
 //#include "solution236.h"
-#include "solution204.h"
+//#include "solution204.h"
+//#include "solution205.h"
+#include "solution101.h"
 
 
 using namespace std;
 
 int main()
 {
-    Solution204 s204;
-    cout<<s204.countPrimes(3)<<endl;
+    Solution101 s101;
+    TreeNode* root = new TreeNode(1);
+    root->left = new TreeNode(2);
+    root->right = new TreeNode(2);
+    root->left->right = new TreeNode(3);
+    root->right->right = new TreeNode(3);
+    if(s101.isSymmetric(root))
+        cout<<"Yes"<<endl;
+    else
+        cout<<"No"<<endl;
+//    Solution205 s205;
+//    string s = "egg";
+//    string t = "foo";
+//    if(s205.isIsomorphic(s,t))
+//        cout<<"Yes"<<endl;
+//    else
+//        cout<<"No"<<endl;
+//    Solution204 s204;
+//    cout<<s204.countPrimes(3)<<endl;
 //    Solution235 s235;
 //    Solution236 s236;
 //    TreeNode* root = new TreeNode(6);

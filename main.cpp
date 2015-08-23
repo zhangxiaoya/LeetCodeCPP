@@ -66,29 +66,41 @@
 //#include "solution101.h"
 //#include "solution100.h"
 //#include "solution102.h"
-#include "solution103.h"
+//#include "solution103.h"
+//#include "solution107.h"
+//#include "solution104.h"
+#include "solution110.h"
 
 using namespace std;
 
 int main()
 {
 //    Solution102 s102;
-    Solution103 s103;
+//    Solution103 s103;
+//    Solution107 s107;
+//    Solution104 s104;
+    Solution110 s110;
     TreeNode* root = new TreeNode(3);
     root->left = new TreeNode(9);
     root->right = new TreeNode(20);
     root->right->left = new TreeNode(15);
     root->right->right = new TreeNode(7);
+    if(s110.isBalanced(root))
+        cout<<"Yes"<<endl;
+    else
+        cout<<"No"<<endl;
+//    cout<<s104.maxDepth(root)<<endl;
 //    vector<vector<int> >res = s102.levelOrder(root);
-    vector<vector<int> > res = s103.zigzagLevelOrder(root);
-    vector<int> layer;
-    for(int i=0;i<res.size();++i)
-    {
-        layer = res[i];
-        for(int j=0;j<layer.size();++j)
-            cout<<layer[j]<<" ";
-        cout<<endl;
-    }
+//    vector<vector<int> > res = s103.zigzagLevelOrder(root);
+//    vector<vector<int> > res = s107.levelOrderBottom(root);
+//    vector<int> layer;
+//    for(int i=0;i<res.size();++i)
+//    {
+//        layer = res[i];
+//        for(int j=0;j<layer.size();++j)
+//            cout<<layer[j]<<" ";
+//        cout<<endl;
+//    }
 //    Solution100 s100;
 //    TreeNode* root1 = new TreeNode(1);
 //    TreeNode* root2 = new TreeNode(1);

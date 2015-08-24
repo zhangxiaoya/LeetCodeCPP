@@ -69,26 +69,30 @@
 //#include "solution103.h"
 //#include "solution107.h"
 //#include "solution104.h"
-#include "solution110.h"
+//#include "solution110.h"
+#include "solution268.h"
 
 using namespace std;
 
 int main()
 {
+    Solution268 s268;
+    vector<int> vec = {0, 1, 3};
+    cout<<s268.missingNumber(vec)<<endl;
 //    Solution102 s102;
 //    Solution103 s103;
 //    Solution107 s107;
 //    Solution104 s104;
-    Solution110 s110;
-    TreeNode* root = new TreeNode(3);
-    root->left = new TreeNode(9);
-    root->right = new TreeNode(20);
-    root->right->left = new TreeNode(15);
-    root->right->right = new TreeNode(7);
-    if(s110.isBalanced(root))
-        cout<<"Yes"<<endl;
-    else
-        cout<<"No"<<endl;
+//    Solution110 s110;
+//    TreeNode* root = new TreeNode(3);
+//    root->left = new TreeNode(9);
+//    root->right = new TreeNode(20);
+//    root->right->left = new TreeNode(15);
+//    root->right->right = new TreeNode(7);
+//    if(s110.isBalanced(root))
+//        cout<<"Yes"<<endl;
+//    else
+//        cout<<"No"<<endl;
 //    cout<<s104.maxDepth(root)<<endl;
 //    vector<vector<int> >res = s102.levelOrder(root);
 //    vector<vector<int> > res = s103.zigzagLevelOrder(root);

@@ -72,15 +72,21 @@
 //#include "solution110.h"
 //#include "solution268.h"
 //#include "solution136.h"
-#include "solution137.h"
+//#include "solution137.h"
+#include "solution260.h"
 
 using namespace std;
 
 int main()
 {
-    Solution137 s137;
-    vector<int> vec = {1,2,3,4,5,1,2,3,4,1,2,3,4};
-    cout<<s137.singleNumber(vec)<<endl;
+    Solution260 s260;
+    vector<int> vec{1,2,1,3,5,2};
+    vector<int> res = s260.singleNumber(vec);
+    cout<<res[0] << " "<<res[1]<<endl;
+
+//    Solution137 s137;
+//    vector<int> vec = {1,2,3,4,5,1,2,3,4,1,2,3,4};
+//    cout<<s137.singleNumber(vec)<<endl;
 //    Solution136 s136;
 //    vector<int> vec = {1,2,3,4,5,6,3,4,6,1,2};
 //    cout<<s136.singleNumber(vec)<<endl;

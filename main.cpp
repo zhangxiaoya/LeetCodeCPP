@@ -73,16 +73,21 @@
 //#include "solution268.h"
 //#include "solution136.h"
 //#include "solution137.h"
-#include "solution260.h"
+//#include "solution260.h"
+#include "solution004.h"
 
 using namespace std;
 
 int main()
 {
-    Solution260 s260;
-    vector<int> vec{1,2,1,3,5,2};
-    vector<int> res = s260.singleNumber(vec);
-    cout<<res[0] << " "<<res[1]<<endl;
+    Solution004 s004;
+    vector<int> vec1{5,6};
+    vector<int> vec2{1,2,3,4};
+    cout<<s004.findMedianSortedArrays(vec1,vec2)<<endl;
+//    Solution260 s260;
+//    vector<int> vec{1,2,1,3,5,2};
+//    vector<int> res = s260.singleNumber(vec);
+//    cout<<res[0] << " "<<res[1]<<endl;
 
 //    Solution137 s137;
 //    vector<int> vec = {1,2,3,4,5,1,2,3,4,1,2,3,4};

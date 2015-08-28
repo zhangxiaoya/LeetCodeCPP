@@ -78,13 +78,16 @@
 //#include "solution144.h"
 //#include "solution145.h"
 #include "solution171.h"
+#include "solution168.h"
 
 using namespace std;
 
 int main()
 {
+    Solution168 s168;
+    cout<<s168.convertToTitle(703)<<endl;
     Solution171 s171;
-    cout<<s171.titleToNumber("Z")<<endl;
+    cout<<s171.titleToNumber("AAA")<<endl;
 //    Solution144 s144;
 //    Solution145 s145;
 //    TreeNode* root = new TreeNode(1);

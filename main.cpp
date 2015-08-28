@@ -76,22 +76,25 @@
 //#include "solution260.h"
 //#include "solution004.h"
 //#include "solution144.h"
-#include "solution145.h"
+//#include "solution145.h"
+#include "solution171.h"
 
 using namespace std;
 
 int main()
 {
+    Solution171 s171;
+    cout<<s171.titleToNumber("Z")<<endl;
 //    Solution144 s144;
-    Solution145 s145;
-    TreeNode* root = new TreeNode(1);
-    root->right = new TreeNode(2);
-    root->right->left = new TreeNode(3);
-//    vector<int> res = s144.preorderTraversal(root);
-    vector<int> res = s145.postorderTraversal(root);
-    for(int i=0;i<res.size();++i)
-        cout<<res[i]<<" ";
-    cout<<endl;
+//    Solution145 s145;
+//    TreeNode* root = new TreeNode(1);
+//    root->right = new TreeNode(2);
+//    root->right->left = new TreeNode(3);
+////    vector<int> res = s144.preorderTraversal(root);
+//    vector<int> res = s145.postorderTraversal(root);
+//    for(int i=0;i<res.size();++i)
+//        cout<<res[i]<<" ";
+//    cout<<endl;
 //    Solution004 s004;
 //    vector<int> vec1{5,6};
 //    vector<int> vec2{1,2,3,4};

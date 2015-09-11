@@ -11,21 +11,13 @@ class Solution155
     stack<int> s2;
 public:
     Solution155();
-    void push(int x) {
+    void push(int x);
 
-    }
+    void pop() ;
 
-    void pop() {
+    int top() ;
 
-    }
-
-    int top() {
-
-    }
-
-    int getMin() {
-
-    }
+    int getMin() ;
 };
 
 #endif // SOLUTION155_H

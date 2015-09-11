@@ -8,7 +8,7 @@ Solution155::Solution155()
 void Solution155::push(int x)
 {
     s1.push(x);
-    if(!s2.empty() && getMin() > x)
+    if(s2.empty() || getMin() >= x)
         s2.push(x);
 }
 

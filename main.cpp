@@ -83,17 +83,20 @@
 //#include "solution278.h"
 //#include "solution279.h"
 //#include "solution274.h"
-#include "solution275.h"
+//#include "solution275.h"
+#include "solution233.h"
 
 using namespace std;
 
 int main()
 {
+    Solution233 s233;
+    cout<<s233.countDigitOne(20)<<endl;
 //    vector<int> vec{3, 0, 6, 1, 5};
-    vector<int> vec{0,1,3,5,6};
+//    vector<int> vec{0,1,3,5,6};
 //    vector<int> vec{1};
-    Solution275 s275;
-    cout<<s275.hIndex(vec)<<endl;
+//    Solution275 s275;
+//    cout<<s275.hIndex(vec)<<endl;
 //    Solution274 s274;
 //    cout<<s274.hIndex(vec)<<endl;
 //    Solution279 s279;

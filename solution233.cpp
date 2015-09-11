@@ -14,7 +14,7 @@ int Solution233::countDigitOne(int n)
     {
         int a = n / p;
         int b = n % p;
-        countOfOne += ((a+8) / 10);
+        countOfOne += ((a+8) / 10) * p;
         if(a % 10 == 1)
             countOfOne += (b + 1);
     }

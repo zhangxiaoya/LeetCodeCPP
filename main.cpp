@@ -81,14 +81,19 @@
 //#include "solution168.h"
 //#include "solution165.h"
 //#include "solution278.h"
-#include "solution279.h"
+//#include "solution279.h"
+#include "solution274.h"
 
 using namespace std;
 
 int main()
 {
-    Solution279 s279;
-    cout<<s279.numSquares(12)<<endl;
+//    vector<int> vec{3, 0, 6, 1, 5};
+    vector<int> vec{0};
+    Solution274 s274;
+    cout<<s274.hIndex(vec)<<endl;
+//    Solution279 s279;
+//    cout<<s279.numSquares(12)<<endl;
 //    Solution278 s278;
 //    cout<<s278.firstBadVersion(2)<<endl;
 //    Solution165 s165;

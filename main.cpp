@@ -84,14 +84,17 @@
 //#include "solution279.h"
 //#include "solution274.h"
 //#include "solution275.h"
-#include "solution233.h"
+//#include "solution233.h"
+#include "solution020.h"
 
 using namespace std;
 
 int main()
 {
-    Solution233 s233;
-    cout<<s233.countDigitOne(20)<<endl;
+    Solution020 s020;
+    cout<<s020.isValid("()[]{}")<<endl;
+//    Solution233 s233;
+//    cout<<s233.countDigitOne(20)<<endl;
 //    vector<int> vec{3, 0, 6, 1, 5};
 //    vector<int> vec{0,1,3,5,6};
 //    vector<int> vec{1};

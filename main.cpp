@@ -79,14 +79,17 @@
 //#include "solution145.h"
 //#include "solution171.h"
 //#include "solution168.h"
-#include "solution165.h"
+//#include "solution165.h"
+#include "solution278.h"
 
 using namespace std;
 
 int main()
 {
-    Solution165 s165;
-    cout<<s165.compareVersion("1.0","1")<<endl;
+    Solution278 s278;
+    cout<<s278.firstBadVersion(2)<<endl;
+//    Solution165 s165;
+//    cout<<s165.compareVersion("1.0","1")<<endl;
 //    Solution168 s168;
 //    cout<<s168.convertToTitle(703)<<endl;
 //    Solution171 s171;

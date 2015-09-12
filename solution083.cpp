@@ -4,7 +4,7 @@ Solution083::Solution083()
 {
 }
 
-ListNode Solution083::deleteDuplicates(ListNode *head)
+ListNode* Solution083::deleteDuplicates(ListNode *head)
 {
     if(head == NULL)
         return NULL;

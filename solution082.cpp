@@ -12,7 +12,7 @@ ListNode* Solution082::deleteDuplicates(ListNode *head)
     th->next = head;
     ListNode* p = th;
     ListNode* q = p->next;
-    ListNode* t,tt;
+    ListNode* t,*tt;
     while(q != NULL)
     {
         t = q->next;

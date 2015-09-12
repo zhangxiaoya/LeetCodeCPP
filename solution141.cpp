@@ -10,14 +10,14 @@ bool Solution141::hasCycle(ListNode *head)
         return false;
     ListNode* p;
     ListNode* q;
-    p = head->next;
+    p = head;
     q = head;
-    while(p != NULL)
+    while(p != NULL && p->next != NULL)
     {
-        if(p == q)
-            return true;
         p = p->next->next;
         q = q->next;
+        if(p == q)
+            return true;
     }
     return false;
 }

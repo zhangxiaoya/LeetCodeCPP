@@ -87,15 +87,22 @@
 //#include "solution233.h"
 //#include "solution020.h"
 //#include "solution150.h"
-#include "solution084.h"
+//#include "solution084.h"
+#include "solution071.h"
 
 using namespace std;
 
 int main()
 {
-    Solution084 s084;
-    vector<int> vec{1,1};
-    cout<<s084.largestRectangleArea(vec)<<endl;
+    Solution071 s071;
+    cout<<s071.simplifyPath("/a/./b/../../c/")<<endl;
+//    string s("home/");
+//    cout<<s.find_first_of("/")<<endl;
+
+//    cout<<s.substr(s.find_first_of("/")+1)<<endl;
+//    Solution084 s084;
+//    vector<int> vec{1,1};
+//    cout<<s084.largestRectangleArea(vec)<<endl;
 //    Solution150 s150;
 //    vector<string> vec{"2", "1", "+", "3", "*"};
 //    cout<<s150.evalRPN(vec)<<endl;

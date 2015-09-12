@@ -89,13 +89,21 @@
 //#include "solution150.h"
 //#include "solution084.h"
 //#include "solution071.h"
-#include "solution085.h"
+//#include "solution085.h"
+#include "solution083.h"
 
 using namespace std;
 
 int main()
 {
-    Solution085 s085;
+    Solution083 s083;
+    ListNode* head;
+    head = new ListNode(1);
+    head->next = new ListNode(1);
+    head->next->next = new ListNode(2);
+    ListNode* p = head;
+
+//    Solution085 s085;
 //    vector<char> v1{'0' ,'0' ,'0' ,'1', '0', '0' ,'0'};
 //    vector<char> v2{'0' ,'0', '1', '1', '1', '0', '0'};
 //    vector<char> v3{'0', '1' ,'1' ,'1' ,'1', '1' ,'0'};
@@ -103,10 +111,10 @@ int main()
 //    vec.push_back(v1);
 //    vec.push_back(v2);
 //    vec.push_back(v3);
-    vector<char> v{'1'};
-    vector< vector<char> > vec;
-    vec.push_back(v);
-    cout<<s085.maximalRectangle(vec)<<endl;
+//    vector<char> v{'1'};
+//    vector< vector<char> > vec;
+//    vec.push_back(v);
+//    cout<<s085.maximalRectangle(vec)<<endl;
 
 
 //    Solution071 s071;

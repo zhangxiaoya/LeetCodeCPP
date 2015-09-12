@@ -85,14 +85,18 @@
 //#include "solution274.h"
 //#include "solution275.h"
 //#include "solution233.h"
-#include "solution020.h"
+//#include "solution020.h"
+#include "solution150.h"
 
 using namespace std;
 
 int main()
 {
-    Solution020 s020;
-    cout<<s020.isValid("()[]{}")<<endl;
+    Solution150 s150;
+    vector<string> vec{"2", "1", "+", "3", "*"};
+    cout<<s150.evalRPN(vec)<<endl;
+//    Solution020 s020;
+//    cout<<s020.isValid("()[]{}")<<endl;
 //    Solution233 s233;
 //    cout<<s233.countDigitOne(20)<<endl;
 //    vector<int> vec{3, 0, 6, 1, 5};

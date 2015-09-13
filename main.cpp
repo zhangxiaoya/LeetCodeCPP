@@ -92,25 +92,31 @@
 //#include "solution085.h"
 //#include "solution083.h"
 //#include "solution147.h"
-#include "solution142.h"
+//#include "solution142.h"
+#include "solution092.h"
 
 using namespace std;
 
 int main()
 {
 //    Solution147 s147;
-    Solution142 s142;
-    ListNode* head = new ListNode(2);
-    head->next = new ListNode(1);
-    head->next->next = head;
-    ListNode* p = s142.detectCycle(head);
-    if(p != NULL)
-    {
-        cout<<"Yes"<<endl;
-        cout<<p->val<<endl;
-    }
-    else
-        cout<<"No"<<endl;
+//    Solution142 s142;
+    ListNode* head = new ListNode(1);
+    head->next = new ListNode(2);
+    head->next->next = new ListNode(3);
+    head->next->next->next = new ListNode(4);
+    head->next->next->next->next = new ListNode(5);
+    Solution092 s092;
+    ListNode* p = s092.reverseBetween(head,3,4);
+//    head->next->next = head;
+//    ListNode* p = s142.detectCycle(head);
+//    if(p != NULL)
+//    {
+//        cout<<"Yes"<<endl;
+//        cout<<p->val<<endl;
+//    }
+//    else
+//        cout<<"No"<<endl;
 //     ListNode* p = s147.insertionSortList(head);
 //     while(p!=NULL)
 //     {

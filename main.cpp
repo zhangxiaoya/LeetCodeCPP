@@ -90,18 +90,28 @@
 //#include "solution084.h"
 //#include "solution071.h"
 //#include "solution085.h"
-#include "solution083.h"
+//#include "solution083.h"
+#include "solution147.h"
 
 using namespace std;
 
 int main()
 {
-    Solution083 s083;
-    ListNode* head;
-    head = new ListNode(1);
+    Solution147 s147;
+    ListNode* head = new ListNode(2);
     head->next = new ListNode(1);
-    head->next->next = new ListNode(2);
-    ListNode* p = head;
+     ListNode* p = s147.insertionSortList(head);
+     while(p!=NULL)
+     {
+         cout<<p->val<<" ";
+         p = p->next;
+     }
+//    Solution083 s083;
+//    ListNode* head;
+//    head = new ListNode(1);
+//    head->next = new ListNode(1);
+//    head->next->next = new ListNode(2);
+//    ListNode* p = head;
 
 //    Solution085 s085;
 //    vector<char> v1{'0' ,'0' ,'0' ,'1', '0', '0' ,'0'};

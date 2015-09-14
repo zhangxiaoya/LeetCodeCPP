@@ -94,7 +94,8 @@
 //#include "solution147.h"
 //#include "solution142.h"
 //#include "solution092.h"
-#include "solution061.h"
+//#include "solution061.h"
+#include "solution025.h"
 
 using namespace std;
 
@@ -107,8 +108,10 @@ int main()
     head->next->next = new ListNode(3);
     head->next->next->next = new ListNode(4);
     head->next->next->next->next = new ListNode(5);
-    Solution061 s061;
-    ListNode* p = s061.rotateRight(head,2);
+//    Solution061 s061;
+    Solution025 s025;
+    ListNode* p =s025.reverseKGroup(head,2);
+//    ListNode* p = s061.rotateRight(head,2);
 //    Solution092 s092;
 //    ListNode* p = s092.reverseBetween(head,3,4);
 //    head->next->next = head;

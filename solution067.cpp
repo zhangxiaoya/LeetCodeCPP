@@ -54,7 +54,7 @@ string Solution067::addBinary(string a, string b)
         {
             if(p == 1)
             {
-                res.append('0');
+                res.append("0");
                 p = 1;
             }
             else

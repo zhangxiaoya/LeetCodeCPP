@@ -116,7 +116,8 @@ SOURCES += main.cpp \
     solution148.cpp \
     solution092.cpp \
     solution061.cpp \
-    solution025.cpp
+    solution025.cpp \
+    solution067.cpp
 
 HEADERS += \
     solution006.h \
@@ -232,6 +233,7 @@ HEADERS += \
     solution148.h \
     solution092.h \
     solution061.h \
-    solution025.h
+    solution025.h \
+    solution067.h
 
 QMAKE_CXXFLAGS += -std=c++0x

@@ -95,22 +95,26 @@
 //#include "solution142.h"
 //#include "solution092.h"
 //#include "solution061.h"
-#include "solution025.h"
+//#include "solution025.h"
+#include "solution227.h"
 
 using namespace std;
 
 int main()
 {
+    Solution227 s227;
+    string str = " 13+5 / 2 ";
+    cout<<s227.calculate(str);
 //    Solution147 s147;
 //    Solution142 s142;
-    ListNode* head = new ListNode(1);
-    head->next = new ListNode(2);
-    head->next->next = new ListNode(3);
-    head->next->next->next = new ListNode(4);
-    head->next->next->next->next = new ListNode(5);
-//    Solution061 s061;
-    Solution025 s025;
-    ListNode* p =s025.reverseKGroup(head,2);
+//    ListNode* head = new ListNode(1);
+//    head->next = new ListNode(2);
+//    head->next->next = new ListNode(3);
+//    head->next->next->next = new ListNode(4);
+//    head->next->next->next->next = new ListNode(5);
+////    Solution061 s061;
+//    Solution025 s025;
+//    ListNode* p =s025.reverseKGroup(head,2);
 //    ListNode* p = s061.rotateRight(head,2);
 //    Solution092 s092;
 //    ListNode* p = s092.reverseBetween(head,3,4);

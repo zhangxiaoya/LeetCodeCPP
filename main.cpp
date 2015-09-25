@@ -96,15 +96,20 @@
 //#include "solution092.h"
 //#include "solution061.h"
 //#include "solution025.h"
-#include "solution227.h"
+//#include "solution227.h"
+#include "solution151.h"
 
 using namespace std;
 
 int main()
 {
-    Solution227 s227;
-    string str = " 13+5 / 2 ";
-    cout<<s227.calculate(str);
+    Solution151 s151;
+    string s = "hi!";
+    s151.reverseWords(s);
+    cout<<s<<endl;
+//    Solution227 s227;
+//    string str = " 13+5 / 2 ";
+//    cout<<s227.calculate(str);
 //    Solution147 s147;
 //    Solution142 s142;
 //    ListNode* head = new ListNode(1);

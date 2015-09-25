@@ -98,14 +98,17 @@
 //#include "solution025.h"
 //#include "solution227.h"
 //#include "solution151.h"
-#include "solution115.h"
+//#include "solution115.h"
+#include "solution043.h"
 
 using namespace std;
 
 int main()
 {
-    Solution115 s115;
-    cout<<s115.numDistinct("b","b")<<endl;
+    Solution043 s043;
+    cout<<s043.multiply("0","0")<<endl;
+//    Solution115 s115;
+//    cout<<s115.numDistinct("b","b")<<endl;
 //    Solution151 s151;
 //    string s = "hi!";
 //    s151.reverseWords(s);

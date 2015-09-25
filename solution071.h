@@ -2,16 +2,17 @@
 #define SOLUTION071_H
 
 
-#include <vector>
-using std::vector;
+#include <string>
+#include <stack>
+
+using std::string;
+using std::stack;
 
 class Solution071
 {
-private:
-    void swap(int &a,int &b);
 public:
     Solution071();
-    int firstMissingPositive(vector<int>& nums);
+    string simplifyPath(string path);
 };
 
 #endif // SOLUTION071_H

@@ -1,30 +1,50 @@
 #include "solution071.h"
 
-Solution071::Solution071()
-{
+//Solution071::Solution071()
+//{
 
-}
+//}
 
-void Solution071::swap(int &a, int &b)
-{
-    a = a+b;
-    b = a-b;
-    a = a-b;
-}
 
-int Solution071::firstMissingPositive(vector<int> &nums)
+string Solution071::simplifyPath(string path)
 {
-    if(nums.size() < 1)
-        return 1;
-    int i = 0;
-    while (i<nums.size()) {
-        if(nums[i] <=0 || nums[i] > nums.size() || nums[i] == nums[nums[i]-1])
-            ++i;
+    string res = "";
+    if(path.empty())
+        return res;
+
+    stack<string> s;
+    string d;
+
+    path = path.substr(1);
+    string right = path;
+    int pos = path.find_first_of("/");
+    while(pos != string::npos)
+    {
+        d = right.substr(0,pos);
+        right = right.substr(pos+1);
+
+        if(d == "..")
+        {
+            if(!s.empty())
+               s.pop();
+        }
+        else if(d == ".")
+        {
+            if(s.empty())
+                s.push(d);
+        }
         else
-            swap(nums[i],nums[nums[i]-1]);
+            s.push(d);
+        pos = right.find_first_of("/");
     }
-    for(i=0;i<nums.size();++i)
-        if(nums[i] != i+1)
-            break;
-    return i+1;
+    if(!right.empty() && right != ".")
+        s.push(right);
+    while(!s.empty())
+    {
+        d = s.top();
+        s.pop();
+        res = d + res;
+    }
+    res = "/" + res;
+    return res;
 }

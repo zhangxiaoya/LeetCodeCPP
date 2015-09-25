@@ -98,7 +98,40 @@ SOURCES += main.cpp \
     solution94.cpp \
     solution020.cpp \
     solution071.cpp \
-    solution283.cpp
+    solution283.cpp \
+    solution150.cpp \
+    solution084.cpp \
+    solution085.cpp \
+    solution083.cpp \
+    solution082.cpp \
+    solution086.cpp \
+    solution021.cpp \
+    solution024.cpp \
+    solution141.cpp \
+    solution109.cpp \
+    solution147.cpp \
+    solution142.cpp \
+    solution023.cpp \
+    solution019.cpp \
+    solution143.cpp \
+    solution148.cpp \
+    solution092.cpp \
+    solution061.cpp \
+    solution025.cpp \
+    solution067.cpp \
+    solution028.cpp \
+    solution058.cpp \
+    solution049.cpp \
+    solution038.cpp \
+    solution091.cpp \
+    solution227.cpp \
+    solution013.cpp \
+    solution151.cpp \
+    solution115.cpp \
+    solution072.cpp \
+    solution041.cpp
+
+
 
 HEADERS += \
     solution006.h \
@@ -196,6 +229,38 @@ HEADERS += \
     solution94.h \
     solution020.h \
     solution071.h \
-    solution283.h
+    solution283.h \
+    solution150.h \
+    solution084.h \
+    solution085.h \
+    solution083.h \
+    solution082.h \
+    solution086.h \
+    solution021.h \
+    solution024.h \
+    solution141.h \
+    solution109.h \
+    solution147.h \
+    solution142.h \
+    solution023.h \
+    solution019.h \
+    solution143.h \
+    solution148.h \
+    solution092.h \
+    solution061.h \
+    solution025.h \
+    solution067.h \
+    solution028.h \
+    solution058.h \
+    solution049.h \
+    solution038.h \
+    solution091.h \
+    solution227.h \
+    solution013.h \
+    solution151.h \
+    solution115.h \
+    solution072.h \
+    solution041.h
+
 
 QMAKE_CXXFLAGS += -std=c++0x

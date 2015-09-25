@@ -85,14 +85,97 @@
 //#include "solution274.h"
 //#include "solution275.h"
 //#include "solution233.h"
-#include "solution020.h"
+//#include "solution020.h"
+//#include "solution150.h"
+//#include "solution084.h"
+//#include "solution071.h"
+//#include "solution085.h"
+//#include "solution083.h"
+//#include "solution147.h"
+//#include "solution142.h"
+//#include "solution092.h"
+//#include "solution061.h"
+//#include "solution025.h"
+//#include "solution227.h"
+//#include "solution151.h"
+#include "solution115.h"
 
 using namespace std;
 
 int main()
 {
-    Solution020 s020;
-    cout<<s020.isValid("()[]{}")<<endl;
+    Solution115 s115;
+    cout<<s115.numDistinct("b","b")<<endl;
+//    Solution151 s151;
+//    string s = "hi!";
+//    s151.reverseWords(s);
+//    cout<<s<<endl;
+//    Solution227 s227;
+//    string str = " 13+5 / 2 ";
+//    cout<<s227.calculate(str);
+//    Solution147 s147;
+//    Solution142 s142;
+//    ListNode* head = new ListNode(1);
+//    head->next = new ListNode(2);
+//    head->next->next = new ListNode(3);
+//    head->next->next->next = new ListNode(4);
+//    head->next->next->next->next = new ListNode(5);
+////    Solution061 s061;
+//    Solution025 s025;
+//    ListNode* p =s025.reverseKGroup(head,2);
+//    ListNode* p = s061.rotateRight(head,2);
+//    Solution092 s092;
+//    ListNode* p = s092.reverseBetween(head,3,4);
+//    head->next->next = head;
+//    ListNode* p = s142.detectCycle(head);
+//    if(p != NULL)
+//    {
+//        cout<<"Yes"<<endl;
+//        cout<<p->val<<endl;
+//    }
+//    else
+//        cout<<"No"<<endl;
+//     ListNode* p = s147.insertionSortList(head);
+//     while(p!=NULL)
+//     {
+//         cout<<p->val<<" ";
+//         p = p->next;
+//     }
+//    Solution083 s083;
+//    ListNode* head;
+//    head = new ListNode(1);
+//    head->next = new ListNode(1);
+//    head->next->next = new ListNode(2);
+//    ListNode* p = head;
+
+//    Solution085 s085;
+//    vector<char> v1{'0' ,'0' ,'0' ,'1', '0', '0' ,'0'};
+//    vector<char> v2{'0' ,'0', '1', '1', '1', '0', '0'};
+//    vector<char> v3{'0', '1' ,'1' ,'1' ,'1', '1' ,'0'};
+//    vector<vector<char> > vec;
+//    vec.push_back(v1);
+//    vec.push_back(v2);
+//    vec.push_back(v3);
+//    vector<char> v{'1'};
+//    vector< vector<char> > vec;
+//    vec.push_back(v);
+//    cout<<s085.maximalRectangle(vec)<<endl;
+
+
+//    Solution071 s071;
+//    cout<<s071.simplifyPath("/a/./b/../../c/")<<endl;
+//    string s("home/");
+//    cout<<s.find_first_of("/")<<endl;
+
+//    cout<<s.substr(s.find_first_of("/")+1)<<endl;
+//    Solution084 s084;
+//    vector<int> vec{1,1};
+//    cout<<s084.largestRectangleArea(vec)<<endl;
+//    Solution150 s150;
+//    vector<string> vec{"2", "1", "+", "3", "*"};
+//    cout<<s150.evalRPN(vec)<<endl;
+//    Solution020 s020;
+//    cout<<s020.isValid("()[]{}")<<endl;
 //    Solution233 s233;
 //    cout<<s233.countDigitOne(20)<<endl;
 //    vector<int> vec{3, 0, 6, 1, 5};

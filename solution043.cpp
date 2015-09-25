@@ -9,6 +9,8 @@ string Solution043::multiply(std::string num1, std::string num2)
 {
     if(num1.empty() || num2.empty())
         return "";
+    if(num1.compare("0") == 0 || num2.compare("0") == 0)
+        return "0";
     string Res;
 
     int len1 = num1.length();

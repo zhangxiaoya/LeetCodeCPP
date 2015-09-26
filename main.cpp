@@ -99,14 +99,17 @@
 //#include "solution227.h"
 //#include "solution151.h"
 //#include "solution115.h"
-#include "solution043.h"
+//#include "solution043.h"
+#include "solution273.h"
 
 using namespace std;
 
 int main()
 {
-    Solution043 s043;
-    cout<<s043.multiply("0","0")<<endl;
+    Solution273 s273;
+    cout<<s273.numberToWords(123)<<endl;
+//    Solution043 s043;
+//    cout<<s043.multiply("0","0")<<endl;
 //    Solution115 s115;
 //    cout<<s115.numDistinct("b","b")<<endl;
 //    Solution151 s151;

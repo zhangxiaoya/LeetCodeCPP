@@ -101,17 +101,25 @@
 //#include "solution115.h"
 //#include "solution043.h"
 //#include "solution273.h"
-#include "solution097.h"
+//#include "solution097.h"
+#include "solution139.h"
 
 using namespace std;
 
 int main()
 {
-    Solution097 s097;
-    if(s097.isInterleave("","b","b"))
+    Solution139 s139;
+    unordered_set<string> dict{"a","b"};
+    string s = "ab";
+    if(s139.wordBreak(s,dict))
         cout<<"Yes"<<endl;
     else
         cout<<"No"<<endl;
+//    Solution097 s097;
+//    if(s097.isInterleave("","b","b"))
+//        cout<<"Yes"<<endl;
+//    else
+//        cout<<"No"<<endl;
 //    Solution273 s273;
 //    cout<<s273.numberToWords(123)<<endl;
 //    Solution043 s043;

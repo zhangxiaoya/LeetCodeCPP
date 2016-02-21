@@ -103,29 +103,34 @@
 //#include "solution273.h"
 //#include "solution097.h"
 //#include "solution139.h"
-#include "solution328.h"
+//#include "solution328.h"
+#include "solution326.h"
 
 using namespace std;
 
 int main()
 {
+    Solution326 s326;
 
-    Solution328 s328;
+    if(s326.isPowerOfThree(27))
+        cout<<"Yes"<<endl;
 
-    ListNode l1(1),l2(2),l3(3),l4(4),l5(5);
+//    Solution328 s328;
 
-    l1.next = &l2;
-    l2.next = &l3;
-    l3.next = &l4;
-//    l4.next = &l5;
+//    ListNode l1(1),l2(2),l3(3),l4(4),l5(5);
 
-    ListNode *res;
-    res = s328.oddEvenList(&l1);
-    while(res!= NULL)
-    {
-        cout<<res->val<<" ";
-        res = res->next;
-    }
+//    l1.next = &l2;
+//    l2.next = &l3;
+//    l3.next = &l4;
+////    l4.next = &l5;
+
+//    ListNode *res;
+//    res = s328.oddEvenList(&l1);
+//    while(res!= NULL)
+//    {
+//        cout<<res->val<<" ";
+//        res = res->next;
+//    }
 //    Solution139 s139;
 //    unordered_set<string> dict{"a","b"};
 //    string s = "ab";

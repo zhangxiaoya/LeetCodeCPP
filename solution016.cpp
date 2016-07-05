@@ -1,6 +1,6 @@
 #include "solution016.h"
 #include <algorithm>
-#include <cmath>
+#include <cstdlib>
 #define INT_MAX ((int)(~0U>>1))
 Solution016::Solution016()
 {

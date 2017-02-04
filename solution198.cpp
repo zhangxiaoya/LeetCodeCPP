@@ -21,5 +21,5 @@ int Solution198::rob(vector<int>& nums) {
     for(int i =0;i< nums.size();++i){
         result[i] = -1;
     }
-    return result[nums.size()-1];
+    return help(nums.size()-1,nums);
 }

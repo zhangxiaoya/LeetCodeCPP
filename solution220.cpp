@@ -1,5 +1,5 @@
 #include "solution220.h"
-#include <cmath>
+#include <cstdlib>
 
 Solution220::Solution220()
 {
@@ -21,6 +21,7 @@ bool Solution220::containsNearbyAlmostDuplicate(vector<int> &nums, int k, int t)
 //        record.insert(nums[i]);
 //    }
 //    return false;
+
 
     if(k==0 && t != 0)
         return false;

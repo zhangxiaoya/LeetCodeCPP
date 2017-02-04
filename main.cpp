@@ -106,14 +106,26 @@
 //#include "solution328.h"
 //#include "solution326.h"
 #include "solution198.h"
+//#include "solution349.h"
 
 using namespace std;
 
 int main()
 {
+
     vector<int> nums = {};
     Solution198 s198;
     cout<<s198.rob(nums)<<endl;
+
+
+//    int n1[] = {1,2,1,2};
+//    int n2[] = {1,1};
+//    vector<int> nums1(n1,n1+4);
+//    vector<int> nums2(n2,n2+2);
+//    Solution349 s349;
+//    vector<int> res = s349.intersection(nums1,nums2);
+//    for(int i=0;i<res.size();++i)
+//        cout<<res[i]<<endl;
 
 //    Solution326 s326;
 
@@ -127,7 +139,7 @@ int main()
 //    l1.next = &l2;
 //    l2.next = &l3;
 //    l3.next = &l4;
-////    l4.next = &l5;
+//    l4.next = &l5;
 
 //    ListNode *res;
 //    res = s328.oddEvenList(&l1);

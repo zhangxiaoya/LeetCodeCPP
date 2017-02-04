@@ -1,5 +1,5 @@
 #include "solution223.h"
-#include <cmath>
+#include <cstdlib>
 using namespace std;
 Solution223::Solution223()
 {

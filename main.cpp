@@ -104,16 +104,21 @@
 //#include "solution097.h"
 //#include "solution139.h"
 //#include "solution328.h"
-#include "solution326.h"
+//#include "solution326.h"
+#include "solution198.h"
 
 using namespace std;
 
 int main()
 {
-    Solution326 s326;
+    vector<int> nums = {};
+    Solution198 s198;
+    cout<<s198.rob(nums)<<endl;
 
-    if(s326.isPowerOfThree(27))
-        cout<<"Yes"<<endl;
+//    Solution326 s326;
+
+//    if(s326.isPowerOfThree(27))
+//        cout<<"Yes"<<endl;
 
 //    Solution328 s328;
 

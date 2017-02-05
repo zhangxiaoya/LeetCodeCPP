@@ -105,17 +105,22 @@
 //#include "solution139.h"
 //#include "solution328.h"
 //#include "solution326.h"
-#include "solution198.h"
+//#include "solution198.h"
 //#include "solution349.h"
+#include "solution064.h"
+#include <vector>
 
 using namespace std;
 
 int main()
 {
 
-    vector<int> nums = {};
-    Solution198 s198;
-    cout<<s198.rob(nums)<<endl;
+    Solution064 s064;
+    vector<vector<int> > grid = {{0}};
+    cout<<s064.minPathSum(grid);
+//    vector<int> nums = {};
+//    Solution198 s198;
+//    cout<<s198.rob(nums)<<endl;
 
 
 //    int n1[] = {1,2,1,2};

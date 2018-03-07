@@ -5,6 +5,7 @@ using namespace std;
 #include "ClimbingStairs/746/Solution746.h"
 #include "Math/Solution069/Solution069.h"
 #include "String/Solution788/Solution788.h"
+#include "String/Solution784/Solution784.h"
 
 int main() {
 //    Solution070 solution070;
@@ -20,7 +21,12 @@ int main() {
 //    cout << solution069.mySqrt(4)<< endl;
 //    cout << solution069.mySqrt(8) << endl;
 
-    Solution788 solution788;
-    cout << solution788.rotatedDigits(10) << endl;
+//    Solution788 solution788;
+//    cout << solution788.rotatedDigits(10) << endl;
+
+    Solution784 solution784;
+    auto result = solution784.letterCasePermutation("abc");
+    for(int i = 0; i < result.size();++i)
+        cout << result[i] << endl;
     return 0;
 }

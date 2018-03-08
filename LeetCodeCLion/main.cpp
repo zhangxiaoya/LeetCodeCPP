@@ -8,14 +8,19 @@ using namespace std;
 #include "String/Solution784/Solution784.h"
 #include "Tree/Solution783/Solution783.h"
 #include "CommonMethod/CreateTreeFromArray.h"
+#include "Tree/Solution530/Solution530.h"
 
 int main() {
     CreateTreeFromArray treeCreator;
     TreeNode* root = NULL;
-    int array[] = {4,2,6,1,3,-1,-1};
-    treeCreator.CreateTree(root,array, 7);
-    Solution783 solution783;
-    cout << solution783.minDiffInBST(root) << endl;
+//    int array[] = {4,2,6,1,3,-1,-1};
+    int array[] = {0,-1,2236,1277,2776,519};
+    treeCreator.CreateTree(root,array, 6);
+
+    Solution530 solution530;
+    cout << solution530.getMinimumDifference(root) << endl;
+//    Solution783 solution783;
+//    cout << solution783.minDiffInBST(root) << endl;
 //    Solution070 solution070;
 //    cout << solution070.climbStairs(2) <<endl;
 //    cout << solution070.climbStairs(1) <<endl;

@@ -7,13 +7,15 @@
 
 
 #include "../CommonObjects/TreeNode.h"
+#include <vector>
+using std::vector;
 
 class CreateTreeFromArray {
 public:
-    void CreateTree(TreeNode*& root, int array[], int nElem);
+    void CreateTree(TreeNode*& root, vector<int> array);
 
 private:
-    TreeNode* CreateSubTree(int array[], int idx, int nElem);
+    TreeNode* CreateSubTree(vector<int> array, int idx);
 };
 
 

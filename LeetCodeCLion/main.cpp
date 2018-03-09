@@ -1,30 +1,42 @@
 #include <iostream>
 
 using namespace std;
-#include "ClimbingStairs/070/Solution070.h"
-#include "ClimbingStairs/746/Solution746.h"
-#include "Math/Solution069/Solution069.h"
-#include "String/Solution788/Solution788.h"
-#include "String/Solution784/Solution784.h"
-#include "Tree/Solution783/Solution783.h"
-#include "CommonMethod/CreateTreeFromArray.h"
-#include "Tree/Solution530/Solution530.h"
-#include "Array/Solution532/Solution532.h"
-#include "Array/Solution045/Solution045.h"
-#include "Array/Solution128/Solution128.h"
-#include "Tree/Solution111/Solution111.h"
+//#include "ClimbingStairs/070/Solution070.h"
+//#include "ClimbingStairs/746/Solution746.h"
+//#include "Math/Solution069/Solution069.h"
+//#include "String/Solution788/Solution788.h"
+//#include "String/Solution784/Solution784.h"
+//#include "Tree/Solution783/Solution783.h"
+//#include "CommonMethod/CreateTreeFromArray.h"
+//#include "Tree/Solution530/Solution530.h"
+//#include "Array/Solution532/Solution532.h"
+//#include "Array/Solution045/Solution045.h"
+//#include "Array/Solution128/Solution128.h"
+//#include "Tree/Solution111/Solution111.h"
+#include "Array/Solution695/Solution695.h"
 
 int main()
 {
-    Solution111 solution111;
-    TreeNode* root = NULL;
-    CreateTreeFromArray creator;
-//    int nums[] = {1,2};
-//    int nums[] = {1,2,3,4,-1,-1,5};
-//    int nums[] = {1,-1,2};
-    int nums[] = {1,2,-1,3,-1,4,-1,5};
-    creator.CreateTree(root,nums,8);
-    cout << solution111.minDepth(root) << endl;
+    vector<vector<int> > grid = {{0,0,1,0,0,0,0,1,0,0,0,0,0},
+                                 {0,0,0,0,0,0,0,1,1,1,0,0,0},
+                                 {0,1,1,0,1,0,0,0,0,0,0,0,0},
+{0,1,0,0,1,1,0,0,1,0,1,0,0},
+{0,1,0,0,1,1,0,0,1,1,1,0,0},
+{0,0,0,0,0,0,0,0,0,0,1,0,0},
+{0,0,0,0,0,0,0,1,1,1,0,0,0},
+{0,0,0,0,0,0,0,1,1,0,0,0,0}};
+    Solution695 solution695;
+    cout << solution695.maxAreaOfIsland(grid) << endl;
+
+//    Solution111 solution111;
+//    TreeNode* root = NULL;
+//    CreateTreeFromArray creator;
+//    vector<int>  nums = {1,2};
+//    vector<int>  nums = {1,2,3,4,-1,-1,5};
+//    vector<int>  nums = {1,-1,2};
+//    vector<int> nums = {1,2,-1,3,-1,4,-1,5};
+//    creator.CreateTree(root,nums);
+//    cout << solution111.minDepth(root) << endl;
 //    Solution128 solution128;
 //    vector<int> nums = {100, 4, 200, 1, 3, 2};
 //    cout << solution128.longestConsecutive(nums) << endl;

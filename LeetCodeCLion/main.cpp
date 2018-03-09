@@ -9,16 +9,21 @@ using namespace std;
 #include "Tree/Solution783/Solution783.h"
 #include "CommonMethod/CreateTreeFromArray.h"
 #include "Tree/Solution530/Solution530.h"
+#include "Array/Solution532/Solution532.h"
 
-int main() {
-    CreateTreeFromArray treeCreator;
-    TreeNode* root = NULL;
-//    int array[] = {4,2,6,1,3,-1,-1};
-    int array[] = {0,-1,2236,1277,2776,519};
-    treeCreator.CreateTree(root,array, 6);
-
-    Solution530 solution530;
-    cout << solution530.getMinimumDifference(root) << endl;
+int main()
+{
+    Solution532 solution532;
+//    vector<int> nums = {3, 1, 4, 1, 5};
+    vector<int> nums = {1, 1, 2, 1, 1};
+    cout << solution532.findPairs(nums,1)<< endl;
+//    CreateTreeFromArray treeCreator;
+//    TreeNode* root = NULL;
+//    int array[] = {0,-1,2236,1277,2776,519};
+//    treeCreator.CreateTree(root,array, 6);
+//
+//    Solution530 solution530;
+//    cout << solution530.getMinimumDifference(root) << endl;
 //    Solution783 solution783;
 //    cout << solution783.minDiffInBST(root) << endl;
 //    Solution070 solution070;

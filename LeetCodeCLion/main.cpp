@@ -11,13 +11,27 @@ using namespace std;
 #include "Tree/Solution530/Solution530.h"
 #include "Array/Solution532/Solution532.h"
 #include "Array/Solution045/Solution045.h"
+#include "Array/Solution128/Solution128.h"
+#include "Tree/Solution111/Solution111.h"
 
 int main()
 {
-    Solution045 solution045;
+    Solution111 solution111;
+    TreeNode* root = NULL;
+    CreateTreeFromArray creator;
+//    int nums[] = {1,2};
+//    int nums[] = {1,2,3,4,-1,-1,5};
+//    int nums[] = {1,-1,2};
+    int nums[] = {1,2,-1,3,-1,4,-1,5};
+    creator.CreateTree(root,nums,8);
+    cout << solution111.minDepth(root) << endl;
+//    Solution128 solution128;
+//    vector<int> nums = {100, 4, 200, 1, 3, 2};
+//    cout << solution128.longestConsecutive(nums) << endl;
+//    Solution045 solution045;
 //    vector<int> nums = {2,3,1,1,4};
-    vector<int> nums = {3,0,0,0,4};
-    cout << solution045.jump(nums)<< endl;
+//    vector<int> nums = {3,0,0,0,4};
+//    cout << solution045.jump(nums)<< endl;
 //    Solution532 solution532;
 //    vector<int> nums = {3, 1, 4, 1, 5};
 //    vector<int> nums = {1, 1, 2, 1, 1};

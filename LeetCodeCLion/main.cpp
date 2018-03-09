@@ -10,13 +10,18 @@ using namespace std;
 #include "CommonMethod/CreateTreeFromArray.h"
 #include "Tree/Solution530/Solution530.h"
 #include "Array/Solution532/Solution532.h"
+#include "Array/Solution045/Solution045.h"
 
 int main()
 {
-    Solution532 solution532;
+    Solution045 solution045;
+//    vector<int> nums = {2,3,1,1,4};
+    vector<int> nums = {3,0,0,0,4};
+    cout << solution045.jump(nums)<< endl;
+//    Solution532 solution532;
 //    vector<int> nums = {3, 1, 4, 1, 5};
-    vector<int> nums = {1, 1, 2, 1, 1};
-    cout << solution532.findPairs(nums,1)<< endl;
+//    vector<int> nums = {1, 1, 2, 1, 1};
+//    cout << solution532.findPairs(nums,1)<< endl;
 //    CreateTreeFromArray treeCreator;
 //    TreeNode* root = NULL;
 //    int array[] = {0,-1,2236,1277,2776,519};

@@ -13,20 +13,24 @@ using namespace std;
 //#include "Array/Solution045/Solution045.h"
 //#include "Array/Solution128/Solution128.h"
 //#include "Tree/Solution111/Solution111.h"
-#include "Array/Solution695/Solution695.h"
+//#include "Array/Solution695/Solution695.h"
+#include "Array/Solution167/Solution167.h"
 
 int main()
 {
-    vector<vector<int> > grid = {{0,0,1,0,0,0,0,1,0,0,0,0,0},
-                                 {0,0,0,0,0,0,0,1,1,1,0,0,0},
-                                 {0,1,1,0,1,0,0,0,0,0,0,0,0},
-{0,1,0,0,1,1,0,0,1,0,1,0,0},
-{0,1,0,0,1,1,0,0,1,1,1,0,0},
-{0,0,0,0,0,0,0,0,0,0,1,0,0},
-{0,0,0,0,0,0,0,1,1,1,0,0,0},
-{0,0,0,0,0,0,0,1,1,0,0,0,0}};
-    Solution695 solution695;
-    cout << solution695.maxAreaOfIsland(grid) << endl;
+    Solution167 solution167;
+    vector<int> nums = {2,3,4};
+    cout << solution167.twoSum(nums,6)[0]<<" "<<solution167.twoSum(nums,6)[1] << endl;
+//    vector<vector<int> > grid = {{0,0,1,0,0,0,0,1,0,0,0,0,0},
+//                                 {0,0,0,0,0,0,0,1,1,1,0,0,0},
+//                                 {0,1,1,0,1,0,0,0,0,0,0,0,0},
+//{0,1,0,0,1,1,0,0,1,0,1,0,0},
+//{0,1,0,0,1,1,0,0,1,1,1,0,0},
+//{0,0,0,0,0,0,0,0,0,0,1,0,0},
+//{0,0,0,0,0,0,0,1,1,1,0,0,0},
+//{0,0,0,0,0,0,0,1,1,0,0,0,0}};
+//    Solution695 solution695;
+//    cout << solution695.maxAreaOfIsland(grid) << endl;
 
 //    Solution111 solution111;
 //    TreeNode* root = NULL;

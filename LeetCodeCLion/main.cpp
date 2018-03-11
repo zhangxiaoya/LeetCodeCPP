@@ -14,13 +14,16 @@ using namespace std;
 //#include "Array/Solution128/Solution128.h"
 //#include "Tree/Solution111/Solution111.h"
 //#include "Array/Solution695/Solution695.h"
-#include "Array/Solution167/Solution167.h"
-
+//#include "Array/Solution167/Solution167.h"
+#include "Array/Solution795/Solution795.h"
 int main()
 {
-    Solution167 solution167;
-    vector<int> nums = {2,3,4};
-    cout << solution167.twoSum(nums,6)[0]<<" "<<solution167.twoSum(nums,6)[1] << endl;
+    Solution795 solution795;
+    vector<int> nums = {2, 1, 4, 3};
+    cout << solution795.numSubarrayBoundedMax(nums, 2,3) << endl;
+//    Solution167 solution167;
+//    vector<int> nums = {2,3,4};
+//    cout << solution167.twoSum(nums,6)[0]<<" "<<solution167.twoSum(nums,6)[1] << endl;
 //    vector<vector<int> > grid = {{0,0,1,0,0,0,0,1,0,0,0,0,0},
 //                                 {0,0,0,0,0,0,0,1,1,1,0,0,0},
 //                                 {0,1,1,0,1,0,0,0,0,0,0,0,0},

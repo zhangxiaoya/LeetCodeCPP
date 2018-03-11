@@ -15,12 +15,16 @@ using namespace std;
 //#include "Tree/Solution111/Solution111.h"
 //#include "Array/Solution695/Solution695.h"
 //#include "Array/Solution167/Solution167.h"
-#include "Array/Solution795/Solution795.h"
+//#include "Array/Solution795/Solution795.h"
+#include "String/Solution796/Solution796.h"
+
 int main()
 {
-    Solution795 solution795;
-    vector<int> nums = {2, 1, 4, 3};
-    cout << solution795.numSubarrayBoundedMax(nums, 2,3) << endl;
+    Solution796 solution796;
+    cout << solution796.rotateString("abcde", "bcdea") << endl;
+//    Solution795 solution795;
+//    vector<int> nums = {2, 1, 4, 3};
+//    cout << solution795.numSubarrayBoundedMax(nums, 2,3) << endl;
 //    Solution167 solution167;
 //    vector<int> nums = {2,3,4};
 //    cout << solution167.twoSum(nums,6)[0]<<" "<<solution167.twoSum(nums,6)[1] << endl;

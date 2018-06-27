@@ -16,12 +16,37 @@ using namespace std;
 //#include "Array/Solution695/Solution695.h"
 //#include "Array/Solution167/Solution167.h"
 //#include "Array/Solution795/Solution795.h"
-#include "String/Solution796/Solution796.h"
+//#include "String/Solution796/Solution796.h"
+//#include "String/Solution859/Solution859.h"
+//#include "Math/Solution858/Solution858.h"
+//#include "Heap/Solution857/Solution857.h"
+#include "Stack/Solution856/Solution856.h"
 
 int main()
 {
-    Solution796 solution796;
-    cout << solution796.rotateString("abcde", "bcdea") << endl;
+//    string S = "(()(()))";
+    string S = "(())()";
+    Solution856 solution856;
+    cout  << solution856.scoreOfParentheses(S) << endl;
+//    vector<int> wage = {4,8,2,2,7};
+//    vector<int> quality = {3,1,10,10,1};
+//    Solution857 solution857;
+//    cout << solution857.mincostToHireWorkers(quality, wage,3) << endl;
+//    Solution858 solution858;
+//    cout << solution858.mirrorReflection(4,3) << endl;
+//    Solution859 solution859;
+//    string A = "ab";
+//    string B = "ba";
+
+//    string A = "aa";
+//    string B = "aa";
+//    string A = "ab";
+//    string B = "ab";
+//    string A = "aaaaaaabc";
+//    string B = "aaaaaaacb";
+//    cout << solution859.buddyStrings(A,B) << endl;
+//    Solution796 solution796;
+//    cout << solution796.rotateString("abcde", "bcdea") << endl;
 //    Solution795 solution795;
 //    vector<int> nums = {2, 1, 4, 3};
 //    cout << solution795.numSubarrayBoundedMax(nums, 2,3) << endl;

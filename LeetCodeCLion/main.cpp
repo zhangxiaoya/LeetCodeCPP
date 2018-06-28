@@ -20,14 +20,57 @@ using namespace std;
 //#include "String/Solution859/Solution859.h"
 //#include "Math/Solution858/Solution858.h"
 //#include "Heap/Solution857/Solution857.h"
-#include "Stack/Solution856/Solution856.h"
+//#include "Stack/Solution856/Solution856.h"
+//#include "Map/Solution855/Solution855.h"
+//#include "String/Solution647/Solution647.h"
+//#include "Array/Solution412/Solution412.h"
+//#include "String/Solution005/Solution005.h"
+//#include "String/Solution010/Solution010.h"
+//#include "String/Solution017/Solution017.h"
+#include "DP/Solution322/Solution322.h"
 
 int main()
 {
+//    vector<int> coins = {186,419,83,408};
+    vector<int> coins = {346,29,395,188,155,109};
+    Solution322 solution322;
+//    cout <<solution322.coinChange(coins, 6249) << endl;
+    cout <<solution322.coinChange(coins, 9401) << endl;
+//    Solution017 solution017;
+//    for(auto s : solution017.letterCombinations("123"))
+//        cout << s << endl;
+//    char str[] = "abcd";
+//    printAllPermutation(str, str);
+//    Solution010 solution010;
+//    cout << solution010.isMatch("mississippi","mis*is*p*.") << endl;
+//    Solution005 solution005;
+//    cout << solution005.longestPalindrome("cbbd") << endl;
+//    Solution412 solution412;
+//    for(auto item : solution412.fizzBuzz(15))
+//        cout << item << endl;
+//    string S = "aaa";
+//    Solution647 solution647;
+//    cout <<solution647.countSubstrings(S) << endl;
+//    int N = 8;
+//    ExamRoom* obj = new ExamRoom(N);
+//    cout << "Seats : " << obj->seat() << endl;
+//    cout << "Seats : " << obj->seat() << endl;
+//    cout << "Seats : " << obj->seat() << endl;
+//    obj->leave(0);
+//    obj->leave(7);
+//    cout << "Seats : " << obj->seat() << endl;
+//    cout << "Seats : " << obj->seat() << endl;
+//    cout << "Seats : " << obj->seat() << endl;
+//    cout << "Seats : " << obj->seat() << endl;
+//    cout << "Seats : " << obj->seat() << endl;
+//    cout << "Seats : " << obj->seat() << endl;
+//    cout << "Seats : " << obj->seat() << endl;
+//    obj->leave(0);
+
 //    string S = "(()(()))";
-    string S = "(())()";
-    Solution856 solution856;
-    cout  << solution856.scoreOfParentheses(S) << endl;
+//    string S = "(())()";
+//    Solution856 solution856;
+//    cout  << solution856.scoreOfParentheses(S) << endl;
 //    vector<int> wage = {4,8,2,2,7};
 //    vector<int> quality = {3,1,10,10,1};
 //    Solution857 solution857;

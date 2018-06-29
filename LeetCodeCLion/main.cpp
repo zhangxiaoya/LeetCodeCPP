@@ -27,15 +27,40 @@ using namespace std;
 //#include "String/Solution005/Solution005.h"
 //#include "String/Solution010/Solution010.h"
 //#include "String/Solution017/Solution017.h"
-#include "DP/Solution322/Solution322.h"
+//#include "DP/Solution322/Solution322.h"
+//#include "Math/Solution029/Solution029.h"
+//#include "BackTracking/Solution046/Solution046.h"
+//#include "String/Solution044/Solution044.h"
+#include "BackTracking/Solution047/Solution047.h"
 
 int main()
 {
+    Solution047 solution047;
+    vector<int> nums = {3,3,0,3};
+    for(auto ns:solution047.permuteUnique(nums))
+    {
+        for(auto n : ns)
+            cout <<n <<" ";
+        cout << endl;
+    }
+//    Solution044 solution044;
+//    cout << solution044.isMatch("aa","*")<<endl;
+//    Solution046 solution046;
+//    vector<int> nums = {1,2,3};
+//    for(auto a: solution046.permute(nums))
+//    {
+//        for(auto n:a)
+//            cout << n << " ";
+//
+//        cout<< endl;
+//    }
+//    Solution029 solution029;
+//    cout << solution029.divide(-2147483648,-1) << endl;
 //    vector<int> coins = {186,419,83,408};
-    vector<int> coins = {346,29,395,188,155,109};
-    Solution322 solution322;
+//    vector<int> coins = {346,29,395,188,155,109};
+//    Solution322 solution322;
 //    cout <<solution322.coinChange(coins, 6249) << endl;
-    cout <<solution322.coinChange(coins, 9401) << endl;
+//    cout <<solution322.coinChange(coins, 9401) << endl;
 //    Solution017 solution017;
 //    for(auto s : solution017.letterCombinations("123"))
 //        cout << s << endl;

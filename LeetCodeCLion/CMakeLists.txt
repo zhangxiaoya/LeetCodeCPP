@@ -40,4 +40,8 @@ add_executable(LeetCodeCLion main.cpp
         String/Solution005/Solution005.cpp String/Solution005/Solution005.h
         String/Solution010/Solution010.cpp String/Solution010/Solution010.h
         String/Solution017/Solution017.cpp String/Solution017/Solution017.h
-        DP/Solution322/Solution322.cpp DP/Solution322/Solution322.h)
+        DP/Solution322/Solution322.cpp DP/Solution322/Solution322.h
+        Math/Solution029/Solution029.cpp Math/Solution029/Solution029.h
+        BackTracking/Solution046/Solution046.cpp BackTracking/Solution046/Solution046.h
+        String/Solution044/Solution044.cpp String/Solution044/Solution044.h
+        BackTracking/Solution047/Solution047.cpp BackTracking/Solution047/Solution047.h)

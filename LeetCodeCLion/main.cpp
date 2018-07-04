@@ -31,18 +31,87 @@ using namespace std;
 //#include "Math/Solution029/Solution029.h"
 //#include "BackTracking/Solution046/Solution046.h"
 //#include "String/Solution044/Solution044.h"
-#include "BackTracking/Solution047/Solution047.h"
+//#include "BackTracking/Solution047/Solution047.h"
+//#include "Array/Solution860/Solution860.h"
+//#include "Tree/Solution863/Solution863.h"
+//#include "String/Solution844/Solution844.h"
+//#include "Math/Solution050/Solution050.h"
+//#include "DP/Solution338/Solution338.h"
+//#include "DP/Solution413/Solution413.h"
+//#include "Tree/Solution606/Solution606.h"
+//#include "Tree/Solution617/Solution617.h"
+#include "Tree/Solution637/Solution637.h"
 
 int main()
 {
-    Solution047 solution047;
-    vector<int> nums = {3,3,0,3};
-    for(auto ns:solution047.permuteUnique(nums))
-    {
-        for(auto n : ns)
-            cout <<n <<" ";
-        cout << endl;
-    }
+//    Solution617 solution617;
+    Solution637 solution637;
+
+    TreeNode* root = new TreeNode(3);
+    root->left = new TreeNode(9);
+    root->right = new TreeNode(20);
+    root->right->left = new TreeNode(15);
+    root->right->right = new TreeNode(7);
+
+//    TreeNode* root1 = new TreeNode(2);
+//    root1->left = new TreeNode(1);
+//    root1->right = new TreeNode(3);
+//    root1->left->right = new TreeNode(4);
+//    root1->right->right = new TreeNode(7);
+    for(auto a : solution637.averageOfLevels(root))
+        cout << a << " ";
+
+//    Solution606 solution606;
+//    cout << solution606.tree2str(root);
+//    vector<int> nums = {1,2,3,4};
+//    Solution413 solution413;
+//    cout << solution413.numberOfArithmeticSlices(nums) << endl;
+//    Solution338 solution338;
+//    for(auto a:solution338.countBits(11))
+//        cout << a << " ";
+//    Solution050 solution050;
+//    int n = -2147483648;
+//    cout << solution050.myPow(2.0,-2147483648) << endl;
+//    string S = "ab##";
+//    string T = "c#d#";
+//    string S = "nzp#o#g";
+//    string T = "b#nzp#o#g";
+//    string S = "#ab#c";
+//    string T = "ad#c";
+//    Solution844 solution844;
+//    cout <<solution844.backspaceCompare(S,T) << endl;
+//    TreeNode* root = new TreeNode(3);
+//    root->left = new TreeNode(5);
+//    root->right = new TreeNode(1);
+//    root->left->left = new TreeNode(6);
+//    root->left->right = new TreeNode(2);
+//    root->left->right->left = new TreeNode(7);
+//    root->left->right->right = new TreeNode(4);
+//    root->right->left = new TreeNode(0);
+//    root->right->right = new TreeNode(8);
+//    TreeNode* root =new TreeNode(0);
+//    root->left = new TreeNode(1);
+//    root->left->left = new TreeNode(3);
+//    root->left->right = new TreeNode(2);
+//    TreeNode* root = new TreeNode(0);
+//    root->left = new TreeNode(1);
+//    root->left->right = new TreeNode(2);
+//    root->left->right->right = new TreeNode(3);
+//    root->left->right->right->right = new TreeNode(4);
+//    Solution863 solution863;
+//    for(auto a : solution863.distanceK(root, root->left->right->right, 0))
+//        cout << a << " ";
+//    Solution860 solution860;
+//    vector<int> bills = {5,5,10,10,20};
+//    cout << solution860.lemonadeChange(bills) << endl;
+//    Solution047 solution047;
+//    vector<int> nums = {3,3,0,3};
+//    for(auto ns:solution047.permuteUnique(nums))
+//    {
+//        for(auto n : ns)
+//            cout <<n <<" ";
+//        cout << endl;
+//    }
 //    Solution044 solution044;
 //    cout << solution044.isMatch("aa","*")<<endl;
 //    Solution046 solution046;

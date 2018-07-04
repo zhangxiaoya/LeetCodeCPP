@@ -44,4 +44,17 @@ add_executable(LeetCodeCLion main.cpp
         Math/Solution029/Solution029.cpp Math/Solution029/Solution029.h
         BackTracking/Solution046/Solution046.cpp BackTracking/Solution046/Solution046.h
         String/Solution044/Solution044.cpp String/Solution044/Solution044.h
-        BackTracking/Solution047/Solution047.cpp BackTracking/Solution047/Solution047.h)
+        BackTracking/Solution047/Solution047.cpp BackTracking/Solution047/Solution047.h
+        Array/Solution860/Solution860.cpp Array/Solution860/Solution860.h
+        Tree/Solution863/Solution863.cpp Tree/Solution863/Solution863.h
+        String/Solution844/Solution844.cpp String/Solution844/Solution844.h
+        Array/Solution852/Solution852.cpp Array/Solution852/Solution852.h
+        Math/Solution050/Solution050.cpp Math/Solution050/Solution050.h
+        Array/Solution055/Solution055.cpp Array/Solution055/Solution055.h
+        DP/Solution303/Solution303.cpp DP/Solution303/Solution303.h
+        DP/Solution338/Solution338.cpp DP/Solution338/Solution338.h
+        DP/Solution413/Solution413.cpp DP/Solution413/Solution413.h
+        Tree/Solution606/Solution606.cpp Tree/Solution606/Solution606.h
+        Tree/Solution617/Solution617.cpp Tree/Solution617/Solution617.h
+        Tree/Solution669/Solution669.cpp Tree/Solution669/Solution669.h
+        Tree/Solution637/Solution637.cpp Tree/Solution637/Solution637.h)

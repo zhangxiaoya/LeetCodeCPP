@@ -40,26 +40,40 @@ using namespace std;
 //#include "DP/Solution413/Solution413.h"
 //#include "Tree/Solution606/Solution606.h"
 //#include "Tree/Solution617/Solution617.h"
-#include "Tree/Solution637/Solution637.h"
+//#include "Tree/Solution637/Solution637.h"
+//#include "Tree/Solution563/Solution563.h"
+//#include "Tree/Solution662/Solution662.h"
+//#include "Tree/Solution501/Solution501.h"
+#include "Tree/Solution543/Solution543.h"
 
 int main()
 {
 //    Solution617 solution617;
-    Solution637 solution637;
+//    Solution637 solution637;
+//    Solution563 solution563;
+//    Solution662 solution662;
+//    Solution501 solution501;
+    Solution543 solution543;
 
-    TreeNode* root = new TreeNode(3);
-    root->left = new TreeNode(9);
-    root->right = new TreeNode(20);
-    root->right->left = new TreeNode(15);
-    root->right->right = new TreeNode(7);
+    TreeNode* root = new TreeNode(1);
+    root->left = new TreeNode(2);
+    root->right = new TreeNode(3);
+    root->left->left = new TreeNode(4);
+    root->left->right = new TreeNode(5);
+
+    cout << solution543.diameterOfBinaryTree(root) << endl;
+//    for(auto a: solution501.findMode(root))
+//        cout << a <<  " ";
+//    cout << solution662.widthOfBinaryTree(root) << endl;
+//    cout  << solution563.findTilt(root) << endl;
 
 //    TreeNode* root1 = new TreeNode(2);
 //    root1->left = new TreeNode(1);
 //    root1->right = new TreeNode(3);
 //    root1->left->right = new TreeNode(4);
 //    root1->right->right = new TreeNode(7);
-    for(auto a : solution637.averageOfLevels(root))
-        cout << a << " ";
+//    for(auto a : solution637.averageOfLevels(root))
+//        cout << a << " ";
 
 //    Solution606 solution606;
 //    cout << solution606.tree2str(root);

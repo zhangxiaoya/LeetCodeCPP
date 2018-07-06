@@ -6,7 +6,7 @@
 #define LEETCODECLION_SOLUTION687_H
 
 
-#include "../CommonObjects/TreeNode.h"
+#include "../../CommonObjects/TreeNode.h"
 
 class Solution687
 {

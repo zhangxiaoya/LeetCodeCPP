@@ -1,12 +1,10 @@
-//
-// Created by XiaoyaZhang on 2018/3/11.
-//
+
 
 #ifndef LEETCODECLION_SOLUTION437_H
 #define LEETCODECLION_SOLUTION437_H
 
 
-#include "../CommonObjects/TreeNode.h"
+#include "../../CommonObjects/TreeNode.h"
 
 class Solution437
 {

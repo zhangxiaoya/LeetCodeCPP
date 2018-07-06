@@ -3,7 +3,7 @@
 //
 
 #include "Solution687.h"
-#include "../CommonMethod/Max.h"
+#include "../../CommonMethod/Max.h"
 
 int Solution687::longestUnivaluePath(TreeNode *root)
 {

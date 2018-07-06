@@ -44,7 +44,8 @@ using namespace std;
 //#include "Tree/Solution563/Solution563.h"
 //#include "Tree/Solution662/Solution662.h"
 //#include "Tree/Solution501/Solution501.h"
-#include "Tree/Solution543/Solution543.h"
+//#include "Tree/Solution543/Solution543.h"
+#include "Tree/Solution113/Solution113.h"
 
 int main()
 {
@@ -53,15 +54,28 @@ int main()
 //    Solution563 solution563;
 //    Solution662 solution662;
 //    Solution501 solution501;
-    Solution543 solution543;
+//    Solution543 solution543;
+    Solution113 solution113;
 
-    TreeNode* root = new TreeNode(1);
-    root->left = new TreeNode(2);
-    root->right = new TreeNode(3);
-    root->left->left = new TreeNode(4);
-    root->left->right = new TreeNode(5);
+    TreeNode* root = new TreeNode(5);
+    root->left = new TreeNode(4);
+    root->right = new TreeNode(8);
+    root->left->left = new TreeNode(11);
+    root->left->left->right = new TreeNode(2);
+    root->left->left->left = new TreeNode(7);
 
-    cout << solution543.diameterOfBinaryTree(root) << endl;
+    root->right->left = new TreeNode(13);
+    root->right->right = new TreeNode(4);
+    root->right->right->left = new TreeNode(5);
+    root->right->right->right = new TreeNode(1);
+
+    for(auto path:solution113.pathSum(root,22))
+    {
+        for(auto a : path)
+            cout << a <<" ";
+        cout << endl;
+    }
+//    cout << solution543.diameterOfBinaryTree(root) << endl;
 //    for(auto a: solution501.findMode(root))
 //        cout << a <<  " ";
 //    cout << solution662.widthOfBinaryTree(root) << endl;

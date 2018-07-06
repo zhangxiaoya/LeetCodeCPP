@@ -22,10 +22,10 @@ add_executable(LeetCodeCLion main.cpp
         CommonMethod/Min.h
         Array/Solution695/Solution695.cxx Array/Solution695/Solution695.h
         CommonMethod/Max.cxx
-        Tree/Solution112.cxx Tree/Solution112.h
+        Tree/Solution112/Solution112.cxx Tree/Solution112/Solution112.h
         Tree/Solution108/Solution108.cpp Tree/Solution108/Solution108.h
-        Tree/Solution687.cpp Tree/Solution687.h
-        Tree/Solution437.cpp Tree/Solution437.h
+        Tree/Solution687/Solution687.cpp Tree/Solution687/Solution687.h
+        Tree/Solution437/Solution437.cpp Tree/Solution437/Solution437.h
         Array/Solution167/Solution167.cpp Array/Solution167/Solution167.h
         Tree/Solution653/Solution653.cpp Tree/Solution653/Solution653.h
         Array/Solution795/Solution795.cpp Array/Solution795/Solution795.h
@@ -63,4 +63,6 @@ add_executable(LeetCodeCLion main.cpp
         Tree/Solution662/Solution662.cpp Tree/Solution662/Solution662.h
         Tree/Solution814/Solution814.cpp Tree/Solution814/Solution814.h
         Tree/Solution501/Solution501.cpp Tree/Solution501/Solution501.h
-        Tree/Solution543/Solution543.cpp Tree/Solution543/Solution543.h)
+        Tree/Solution543/Solution543.cpp Tree/Solution543/Solution543.h
+        Tree/Solution113/Solution113.cpp Tree/Solution113/Solution113.h
+        Tree/Solution098/Solution098.cpp Tree/Solution098/Solution098.h)

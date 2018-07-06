@@ -14,7 +14,7 @@ int Solution543::maxDepth(TreeNode *root) {
 
 int Solution543::diameterOfBinaryTree(TreeNode *root)
 {
-    max = 0;
+    max = 0 ;
     maxDepth(root);
     return max;
 }

@@ -5,7 +5,7 @@
 #ifndef LEETCODECLION_SOLUTION112_H
 #define LEETCODECLION_SOLUTION112_H
 
-#include "../CommonObjects/TreeNode.h"
+#include "../../CommonObjects/TreeNode.h"
 
 class Solution112
 {

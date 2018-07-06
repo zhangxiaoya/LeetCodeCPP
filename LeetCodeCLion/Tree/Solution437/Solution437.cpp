@@ -1,6 +1,4 @@
-//
-// Created by XiaoyaZhang on 2018/3/11.
-//
+
 
 #include "Solution437.h"
 

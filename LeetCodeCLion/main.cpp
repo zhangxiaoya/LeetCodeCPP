@@ -45,36 +45,62 @@ using namespace std;
 //#include "Tree/Solution662/Solution662.h"
 //#include "Tree/Solution501/Solution501.h"
 //#include "Tree/Solution543/Solution543.h"
-#include "Tree/Solution113/Solution113.h"
+//#include "Tree/Solution113/Solution113.h"
+//#include "Matrix/Solution868/Solution868.h"
+#include "Matrix/Solution832/Solution832.h"
 
 int main()
 {
+    Solution832 solution832;
+    vector<vector<int>> m = {
+            {1,1,0},
+            {1,0,1},
+            {0,0,0}
+    };
+    for(auto row : solution832.flipAndInvertImage(m))
+    {
+        for(auto a: row)
+            cout << a <<" ";
+        cout << endl;
+    }
+//    vector<vector<int>> m = {
+//            {1,2,3},
+//            {4,5,6},
+//            {7,8,9}
+//    };
+//    Solution868 solution868;
+//    for(auto row : solution868.transpose(m))
+//    {
+//        for(auto a : row)
+//            cout << a << " ";
+//        cout << endl;
+//    }
 //    Solution617 solution617;
 //    Solution637 solution637;
 //    Solution563 solution563;
 //    Solution662 solution662;
 //    Solution501 solution501;
 //    Solution543 solution543;
-    Solution113 solution113;
+//    Solution113 solution113;
 
-    TreeNode* root = new TreeNode(5);
-    root->left = new TreeNode(4);
-    root->right = new TreeNode(8);
-    root->left->left = new TreeNode(11);
-    root->left->left->right = new TreeNode(2);
-    root->left->left->left = new TreeNode(7);
-
-    root->right->left = new TreeNode(13);
-    root->right->right = new TreeNode(4);
-    root->right->right->left = new TreeNode(5);
-    root->right->right->right = new TreeNode(1);
-
-    for(auto path:solution113.pathSum(root,22))
-    {
-        for(auto a : path)
-            cout << a <<" ";
-        cout << endl;
-    }
+//    TreeNode* root = new TreeNode(5);
+//    root->left = new TreeNode(4);
+//    root->right = new TreeNode(8);
+//    root->left->left = new TreeNode(11);
+//    root->left->left->right = new TreeNode(2);
+//    root->left->left->left = new TreeNode(7);
+//
+//    root->right->left = new TreeNode(13);
+//    root->right->right = new TreeNode(4);
+//    root->right->right->left = new TreeNode(5);
+//    root->right->right->right = new TreeNode(1);
+//
+//    for(auto path:solution113.pathSum(root,22))
+//    {
+//        for(auto a : path)
+//            cout << a <<" ";
+//        cout << endl;
+//    }
 //    cout << solution543.diameterOfBinaryTree(root) << endl;
 //    for(auto a: solution501.findMode(root))
 //        cout << a <<  " ";

@@ -65,4 +65,7 @@ add_executable(LeetCodeCLion main.cpp
         Tree/Solution501/Solution501.cpp Tree/Solution501/Solution501.h
         Tree/Solution543/Solution543.cpp Tree/Solution543/Solution543.h
         Tree/Solution113/Solution113.cpp Tree/Solution113/Solution113.h
-        Tree/Solution098/Solution098.cpp Tree/Solution098/Solution098.h)
+        Tree/Solution098/Solution098.cpp Tree/Solution098/Solution098.h
+        Matrix/Solution868/Solution868.cpp Matrix/Solution868/Solution868.h
+        Math/Solution867/Solution867.cpp Math/Solution867/Solution867.h
+        Matrix/Solution832/Solution832.cpp Matrix/Solution832/Solution832.h)

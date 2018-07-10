@@ -47,22 +47,30 @@ using namespace std;
 //#include "Tree/Solution543/Solution543.h"
 //#include "Tree/Solution113/Solution113.h"
 //#include "Matrix/Solution868/Solution868.h"
-#include "Matrix/Solution832/Solution832.h"
+//#include "Matrix/Solution832/Solution832.h"
+//#include "Matrix/Solution861/Solution861.h"
+#include "Array/Solution384/Solution384.h"
 
 int main()
 {
-    Solution832 solution832;
-    vector<vector<int>> m = {
-            {1,1,0},
-            {1,0,1},
-            {0,0,0}
-    };
-    for(auto row : solution832.flipAndInvertImage(m))
-    {
-        for(auto a: row)
-            cout << a <<" ";
-        cout << endl;
-    }
+    vector<int> nums= {1,2,3};
+    Solution384 solution(nums);
+    for(auto a: solution.shuffle())
+        cout << a << " ";
+//    Solution832 solution832;
+//    Solution861 solution861;
+//    vector<vector<int>> m = {
+//            {0,0,1,1},
+//            {1,0,1,0},
+//            {1,1,0,0}
+//    };
+//    cout << solution861.matrixScore(m) << endl;
+//    for(auto row : solution832.flipAndInvertImage(m))
+//    {
+//        for(auto a: row)
+//            cout << a <<" ";
+//        cout << endl;
+//    }
 //    vector<vector<int>> m = {
 //            {1,2,3},
 //            {4,5,6},

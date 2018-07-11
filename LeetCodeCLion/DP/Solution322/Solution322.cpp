@@ -8,34 +8,17 @@
 
 int Solution322::coinChange(vector<int> &coins, int amount)
 {
-    std::sort(coins.begin(), coins.end(), std::greater<int>());
-    vector<int> ress;
-    help(coins, amount, 0, 0, ress);
-    if(ress.empty())
-        return -1;
-    std::sort(ress.begin(), ress.end());
-    return ress[0];
-}
-
-void Solution322::help(vector<int> &coins, int amount, int coinIdx, int oldCount, vector<int>& ress)
-{
-    int count = 0;
-    while (amount > 0)
+    vector<int> dp(amount + 1, amount + 1);
+    dp[0] = 0;
+    for (int i = 1; i <= amount; ++i)
     {
-        amount -= coins[coinIdx];
-        count++;
-    }
-    if (amount == 0)
-    {
-        ress.push_back(count + oldCount);
-    }
-    while (count > 0)
-    {
-        count--;
-        amount += coins[coinIdx];
-        for (int i = coinIdx+1; i < coins.size(); i++)
+        int curMin = dp[i];
+        for (int j = 0; j < coins.size(); ++j)
         {
-            help(coins, amount, i, oldCount + count, ress);
+            if (i >= coins[j])
+                curMin = std::min(curMin, dp[i - coins[j]] + 1);
         }
+        dp[i] = curMin;
     }
+    return dp[amount] > amount ? -1 : dp[amount];
 }

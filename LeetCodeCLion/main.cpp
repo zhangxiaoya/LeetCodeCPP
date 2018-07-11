@@ -27,7 +27,7 @@ using namespace std;
 //#include "String/Solution005/Solution005.h"
 //#include "String/Solution010/Solution010.h"
 //#include "String/Solution017/Solution017.h"
-//#include "DP/Solution322/Solution322.h"
+#include "DP/Solution322/Solution322.h"
 //#include "Math/Solution029/Solution029.h"
 //#include "BackTracking/Solution046/Solution046.h"
 //#include "String/Solution044/Solution044.h"
@@ -50,12 +50,12 @@ using namespace std;
 //#include "Matrix/Solution832/Solution832.h"
 //#include "Matrix/Solution861/Solution861.h"
 //#include "Array/Solution384/Solution384.h"
-#include "Math/Solution371/Solution371.h"
+//#include "Math/Solution371/Solution371.h"
 
 int main()
 {
-    Solution371 solution371;
-    cout << solution371.getSum(1,1) << endl;
+//    Solution371 solution371;
+//    cout << solution371.getSum(1,1) << endl;
 //    vector<int> nums= {1,2,3};
 //    Solution384 solution(nums);
 //    for(auto a: solution.shuffle())
@@ -191,9 +191,9 @@ int main()
 //    Solution029 solution029;
 //    cout << solution029.divide(-2147483648,-1) << endl;
 //    vector<int> coins = {186,419,83,408};
-//    vector<int> coins = {346,29,395,188,155,109};
-//    Solution322 solution322;
-//    cout <<solution322.coinChange(coins, 6249) << endl;
+    vector<int> coins = {346,29,395,188,155,109};
+    Solution322 solution322;
+    cout <<solution322.coinChange(coins, 6249) << endl;
 //    cout <<solution322.coinChange(coins, 9401) << endl;
 //    Solution017 solution017;
 //    for(auto s : solution017.letterCombinations("123"))

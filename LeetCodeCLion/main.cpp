@@ -49,14 +49,17 @@ using namespace std;
 //#include "Matrix/Solution868/Solution868.h"
 //#include "Matrix/Solution832/Solution832.h"
 //#include "Matrix/Solution861/Solution861.h"
-#include "Array/Solution384/Solution384.h"
+//#include "Array/Solution384/Solution384.h"
+#include "Math/Solution371/Solution371.h"
 
 int main()
 {
-    vector<int> nums= {1,2,3};
-    Solution384 solution(nums);
-    for(auto a: solution.shuffle())
-        cout << a << " ";
+    Solution371 solution371;
+    cout << solution371.getSum(1,1) << endl;
+//    vector<int> nums= {1,2,3};
+//    Solution384 solution(nums);
+//    for(auto a: solution.shuffle())
+//        cout << a << " ";
 //    Solution832 solution832;
 //    Solution861 solution861;
 //    vector<vector<int>> m = {

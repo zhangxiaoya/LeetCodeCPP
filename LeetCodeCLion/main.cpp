@@ -60,6 +60,34 @@ int main()
     vector<int> nums = {1,2,3,4,3};
     Solution287 solution287;
     cout <<solution287.findDuplicate(nums) << endl;
+
+
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+    using namespace std;
+    int dp[1500][1500];
+    string str1,str2;
+
+    int main()
+    {
+        while(cin>>str1){
+            int len = str1.length();
+            memset(dp,0,sizeof(dp));
+            for(int i=0,j=len-1;j>=0,i<len;j--,i++){
+                str1[j] = toupper(str1[j]);
+                str2[i] = str1[j];
+            }
+            for(int i=1;i<=len;i++){
+                for(int j=1;j<=len;j++){
+                    if(str1[i-1] == str2[j-1])dp[i][j] = dp[i-1][j-1] + 1;
+                    else dp[i][j] = dp[i][j-1] > dp[i-1][j] ? dp[i][j-1] : dp[i-1][j];
+                }
+            }
+            printf("%d\n",len - dp[len][len]);
+        }
+        return 0;
+    }
 //    Solution378 solution378;
 //    vector<vector<int>> matrix = {
 //            {-15}

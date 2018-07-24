@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.9)
 project(LeetCodeCLion)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
 add_executable(LeetCodeCLion main.cpp
         ClimbingStairs/070/Solution070.cxx ClimbingStairs/070/Solution070.h
@@ -76,4 +76,9 @@ add_executable(LeetCodeCLion main.cpp
         Array/Solution238/Solution238.cpp Array/Solution238/Solution238.h
         BinarySearch/Solution378/Solution378.cpp BinarySearch/Solution378/Solution378.h
         Tree/Solution230/Solution230.cpp Tree/Solution230/Solution230.h
-        Array/Solution287/Solution287.cpp Array/Solution287/Solution287.h)
+        Array/Solution287/Solution287.cpp Array/Solution287/Solution287.h
+        Math/Solution372/Solution372.cpp Math/Solution372/Solution372.h
+        BinarySearch/Solution704/Solution704.cpp BinarySearch/Solution704/Solution704.h
+        Geometry/Solution587.cpp Geometry/Solution587.h
+        Random/Solution872/Solution872.cpp Random/Solution872/Solution872.h
+        Greedy/Solution870/Solution870.cpp Greedy/Solution870/Solution870.h Math/Solution869/Solution869.cpp Math/Solution869/Solution869.h Math/Solution868/Solution868.cpp Math/Solution868/Solution868.h BinarySearch/Solution875/Solution875.cpp BinarySearch/Solution875/Solution875.h)

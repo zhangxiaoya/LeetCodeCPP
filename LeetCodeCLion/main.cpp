@@ -58,13 +58,20 @@ using namespace std;
 //#include "BinarySearch/Solution704/Solution704.h"
 //#include "Math/Solution869/Solution869.h"
 //#include "Math/Solution868/Solution868.h"
-#include "BinarySearch/Solution875/Solution875.h"
+//#include "BinarySearch/Solution875/Solution875.h"
+#include "Tree/Solution129/Solution129.h"
 
 int main()
 {
-    Solution875 solution875;
-    vector<int> piles = {3,6,7,11};
-    cout << solution875.minEatingSpeed(piles, 8) << endl;
+    TreeNode* root = new TreeNode(4);
+    root->left = new TreeNode(9);
+    root->right = new TreeNode(0);
+    root->left->right = new TreeNode(1);
+    Solution129 solution129;
+    cout << solution129.sumNumbers(root) << endl;
+//    Solution875 solution875;
+//    vector<int> piles = {3,6,7,11};
+//    cout << solution875.minEatingSpeed(piles, 8) << endl;
 //    Solution868 solution868;
 //    cout << solution868.binaryGap(22) << endl;
 //    Solution869 solution869;

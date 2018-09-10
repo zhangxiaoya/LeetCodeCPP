@@ -87,4 +87,5 @@ add_executable(LeetCodeCLion main.cpp
         BinarySearch/Solution875/Solution875.cpp BinarySearch/Solution875/Solution875.h
         Array/Solution287/Solution287.cpp Array/Solution287/Solution287.h
         Tree/Solution872/Solution872.cpp Tree/Solution872/Solution872.h
-        Tree/Solution129/Solution129.cpp Tree/Solution129/Solution129.h)
+        Tree/Solution129/Solution129.cpp Tree/Solution129/Solution129.h
+        Tree/Solution095/Solution095.cpp Tree/Solution095/Solution095.h)

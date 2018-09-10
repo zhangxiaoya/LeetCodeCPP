@@ -60,12 +60,15 @@ using namespace std;
 //#include "Math/Solution868/Solution868.h"
 //#include "BinarySearch/Solution875/Solution875.h"
 //#include "Tree/Solution129/Solution129.h"
-#include "Tree/Solution095/Solution095.h"
+//#include "Tree/Solution095/Solution095.h"
+#include "Tree/Solution096/Solution096.h"
 
 int main()
 {
-    Solution095 solution095;
-    vector<TreeNode*> res = solution095.generateTrees(0);
+    Solution096 solution096;
+    cout << solution096.numTrees(3)<< endl;
+//    Solution095 solution095;
+//    vector<TreeNode*> res = solution095.generateTrees(0);
 
 //    TreeNode* root = new TreeNode(4);
 //    root->left = new TreeNode(9);

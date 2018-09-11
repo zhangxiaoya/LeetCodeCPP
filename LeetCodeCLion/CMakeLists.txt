@@ -9,19 +9,20 @@ add_executable(LeetCodeCLion main.cpp
         Math/Solution069/Solution069.cxx Math/Solution069/Solution069.h
         String/Solution788/Solution788.cxx String/Solution788/Solution788.h
         String/Solution784/Solution784.cxx String/Solution784/Solution784.h
-        CommonObjects/TreeNode.h
         Tree/Solution783/Solution783.cxx Tree/Solution783/Solution783.h
-        CommonMethod/CreateTreeFromArray.cxx CommonMethod/CreateTreeFromArray.h
+        CommonObjects/TreeNode.h
+        CommonObjects/Node.h
+        CommonMethod/CreateTreeFromArray.cxx
+        CommonMethod/CreateTreeFromArray.h
         CommonMethod/BasicMacro.h
+        CommonMethod/Max.h CommonMethod/Max.cxx
+        CommonMethod/Min.h
         Tree/Solution530/Solution530.cxx Tree/Solution530/Solution530.h
         Array/Solution532/Solution532.cxx Array/Solution532/Solution532.h
         Array/Solution045/Solution045.cxx Array/Solution045/Solution045.h
         Array/Solution128/Solution128.cxx Array/Solution128/Solution128.h
-        CommonMethod/Max.h
         Tree/Solution111/Solution111.cxx Tree/Solution111/Solution111.h
-        CommonMethod/Min.h
         Array/Solution695/Solution695.cxx Array/Solution695/Solution695.h
-        CommonMethod/Max.cxx
         Tree/Solution112/Solution112.cxx Tree/Solution112/Solution112.h
         Tree/Solution108/Solution108.cpp Tree/Solution108/Solution108.h
         Tree/Solution687/Solution687.cpp Tree/Solution687/Solution687.h
@@ -90,4 +91,6 @@ add_executable(LeetCodeCLion main.cpp
         Tree/Solution129/Solution129.cpp Tree/Solution129/Solution129.h
         Tree/Solution095/Solution095.cpp Tree/Solution095/Solution095.h
         Tree/Solution096/Solution096.cpp Tree/Solution096/Solution096.h
-        Tree/Solution889/Solution889.cpp Tree/Solution889/Solution889.h Tree/Solution894/Solution894.cpp Tree/Solution894/Solution894.h)
+        Tree/Solution889/Solution889.cpp Tree/Solution889/Solution889.h
+        Tree/Solution894/Solution894.cpp Tree/Solution894/Solution894.h
+        )

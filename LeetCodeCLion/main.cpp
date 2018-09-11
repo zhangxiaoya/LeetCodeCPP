@@ -61,12 +61,18 @@ using namespace std;
 //#include "BinarySearch/Solution875/Solution875.h"
 //#include "Tree/Solution129/Solution129.h"
 //#include "Tree/Solution095/Solution095.h"
-#include "Tree/Solution096/Solution096.h"
+//#include "Tree/Solution096/Solution096.h"
+#include "Tree/Solution889/Solution889.h"
 
 int main()
 {
-    Solution096 solution096;
-    cout << solution096.numTrees(3)<< endl;
+    Solution889 solution889;
+    vector<int> pre = {1,2,4,5,3,6,7};
+    vector<int> post = {4,5,2,6,7,3,1};
+    auto root = solution889.constructFromPrePost(pre,post);
+
+//    Solution096 solution096;
+//    cout << solution096.numTrees(3)<< endl;
 //    Solution095 solution095;
 //    vector<TreeNode*> res = solution095.generateTrees(0);
 

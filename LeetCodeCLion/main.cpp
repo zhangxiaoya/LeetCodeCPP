@@ -62,14 +62,26 @@ using namespace std;
 //#include "Tree/Solution129/Solution129.h"
 //#include "Tree/Solution095/Solution095.h"
 //#include "Tree/Solution096/Solution096.h"
-#include "Tree/Solution889/Solution889.h"
+//#include "Tree/Solution889/Solution889.h"
+#include "Tree/Solution865/Solution865.h"
 
 int main()
 {
-    Solution889 solution889;
-    vector<int> pre = {1,2,4,5,3,6,7};
-    vector<int> post = {4,5,2,6,7,3,1};
-    auto root = solution889.constructFromPrePost(pre,post);
+    TreeNode* root = new TreeNode(3);
+    root->left = new TreeNode(5);
+    root->right = new TreeNode(1);
+    root->left->left = new TreeNode(6);
+    root->left->right = new TreeNode(2);
+    root->left->right->left = new TreeNode(7);
+    root->left->right->right = new TreeNode(4);
+    root->right->left = new TreeNode(0);
+    root->right->right = new TreeNode(8);
+    Solution865 solution865;
+    auto p = solution865.subtreeWithAllDeepest(root);
+//    Solution889 solution889;
+//    vector<int> pre = {1,2,4,5,3,6,7};
+//    vector<int> post = {4,5,2,6,7,3,1};
+//    auto root = solution889.constructFromPrePost(pre,post);
 
 //    Solution096 solution096;
 //    cout << solution096.numTrees(3)<< endl;

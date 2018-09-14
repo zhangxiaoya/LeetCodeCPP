@@ -64,16 +64,21 @@ using namespace std;
 //#include "Tree/Solution096/Solution096.h"
 //#include "Tree/Solution889/Solution889.h"
 //#include "Tree/Solution865/Solution865.h"
-#include "Tree/Solution538/Solution538.h"
+//#include "Tree/Solution538/Solution538.h"
+#include "Tree/Solution404/Solution404.h"
 
 int main()
 {
-    TreeNode* root = new TreeNode(5);
-    root->left = new TreeNode(2);
-    root->right = new TreeNode(13);
-    Solution538 solution538;
-    auto newroot = solution538.convertBST(root);
-    auto delay = 1;
+    TreeNode* root = new TreeNode(3);
+    root->left = new TreeNode(9);
+    root->right = new TreeNode(20);
+    root->right->left = new TreeNode(15);
+    root->right->right = new TreeNode(7);
+    Solution404 solution404;
+    cout << solution404.sumOfLeftLeaves(root) << endl;
+//    Solution538 solution538;
+//    auto newroot = solution538.convertBST(root);
+//    auto delay = 1;
 //    TreeNode* root = new TreeNode(3);
 //    root->left = new TreeNode(5);
 //    root->right = new TreeNode(1);

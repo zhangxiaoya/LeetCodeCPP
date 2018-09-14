@@ -101,4 +101,5 @@ add_executable(LeetCodeCLion main.cpp
         Tree/Solution701/Solution701.cpp Tree/Solution701/Solution701.h
         Tree/Solution865/Solution865.cpp Tree/Solution865/Solution865.h
         Tree/Solution671/Solution671.cpp Tree/Solution671/Solution671.h
-        Tree/Solution684/Solution684.cpp Tree/Solution684/Solution684.h)
+        Tree/Solution684/Solution684.cpp Tree/Solution684/Solution684.h
+        Tree/Solution538/Solution538.cpp Tree/Solution538/Solution538.h)

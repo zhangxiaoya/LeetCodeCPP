@@ -63,21 +63,28 @@ using namespace std;
 //#include "Tree/Solution095/Solution095.h"
 //#include "Tree/Solution096/Solution096.h"
 //#include "Tree/Solution889/Solution889.h"
-#include "Tree/Solution865/Solution865.h"
+//#include "Tree/Solution865/Solution865.h"
+#include "Tree/Solution538/Solution538.h"
 
 int main()
 {
-    TreeNode* root = new TreeNode(3);
-    root->left = new TreeNode(5);
-    root->right = new TreeNode(1);
-    root->left->left = new TreeNode(6);
-    root->left->right = new TreeNode(2);
-    root->left->right->left = new TreeNode(7);
-    root->left->right->right = new TreeNode(4);
-    root->right->left = new TreeNode(0);
-    root->right->right = new TreeNode(8);
-    Solution865 solution865;
-    auto p = solution865.subtreeWithAllDeepest(root);
+    TreeNode* root = new TreeNode(5);
+    root->left = new TreeNode(2);
+    root->right = new TreeNode(13);
+    Solution538 solution538;
+    auto newroot = solution538.convertBST(root);
+    auto delay = 1;
+//    TreeNode* root = new TreeNode(3);
+//    root->left = new TreeNode(5);
+//    root->right = new TreeNode(1);
+//    root->left->left = new TreeNode(6);
+//    root->left->right = new TreeNode(2);
+//    root->left->right->left = new TreeNode(7);
+//    root->left->right->right = new TreeNode(4);
+//    root->right->left = new TreeNode(0);
+//    root->right->right = new TreeNode(8);
+//    Solution865 solution865;
+//    auto p = solution865.subtreeWithAllDeepest(root);
 //    Solution889 solution889;
 //    vector<int> pre = {1,2,4,5,3,6,7};
 //    vector<int> post = {4,5,2,6,7,3,1};

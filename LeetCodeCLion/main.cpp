@@ -65,17 +65,20 @@ using namespace std;
 //#include "Tree/Solution889/Solution889.h"
 //#include "Tree/Solution865/Solution865.h"
 //#include "Tree/Solution538/Solution538.h"
-#include "Tree/Solution404/Solution404.h"
+//#include "Tree/Solution404/Solution404.h"
+#include "Tree/Solution508/Solution508.h"
 
 int main()
 {
-    TreeNode* root = new TreeNode(3);
-    root->left = new TreeNode(9);
-    root->right = new TreeNode(20);
-    root->right->left = new TreeNode(15);
-    root->right->right = new TreeNode(7);
-    Solution404 solution404;
-    cout << solution404.sumOfLeftLeaves(root) << endl;
+    TreeNode* root = new TreeNode(5);
+    root->left = new TreeNode(2);
+    root->right = new TreeNode(-5);
+    Solution508 solution508;
+    auto res = solution508.findFrequentTreeSum(root);
+//    root->right->left = new TreeNode(15);
+//    root->right->right = new TreeNode(7);
+//    Solution404 solution404;
+//    cout << solution404.sumOfLeftLeaves(root) << endl;
 //    Solution538 solution538;
 //    auto newroot = solution538.convertBST(root);
 //    auto delay = 1;

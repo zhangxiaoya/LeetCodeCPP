@@ -66,15 +66,20 @@ using namespace std;
 //#include "Tree/Solution865/Solution865.h"
 //#include "Tree/Solution538/Solution538.h"
 //#include "Tree/Solution404/Solution404.h"
-#include "Tree/Solution508/Solution508.h"
+//#include "Tree/Solution508/Solution508.h"
+#include "Tree/Solution199/Solution199.h"
 
 int main()
 {
-    TreeNode* root = new TreeNode(5);
+    TreeNode* root = new TreeNode(1);
     root->left = new TreeNode(2);
-    root->right = new TreeNode(-5);
-    Solution508 solution508;
-    auto res = solution508.findFrequentTreeSum(root);
+    root->right = new TreeNode(3);
+    root->left->right = new TreeNode(5);
+    root->right->right =new TreeNode(4);
+    Solution199 solution199;
+    auto res = solution199.rightSideView(root);
+//    Solution508 solution508;
+//    auto res = solution508.findFrequentTreeSum(root);
 //    root->right->left = new TreeNode(15);
 //    root->right->right = new TreeNode(7);
 //    Solution404 solution404;

@@ -5,7 +5,7 @@
 #include <vector>
 using std::vector;
 
-class Solution901
+class Solution905
 {
 public:
     vector<int> sortArrayByParity(vector<int>& A);

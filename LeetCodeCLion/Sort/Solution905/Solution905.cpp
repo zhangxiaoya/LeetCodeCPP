@@ -1,7 +1,7 @@
 
-#include "Solution901.h"
+#include "Solution905.h"
 
-vector<int> Solution901::sortArrayByParity(vector<int> &A)
+vector<int> Solution905::sortArrayByParity(vector<int> &A)
 {
     if(A.size() > 1)
     {

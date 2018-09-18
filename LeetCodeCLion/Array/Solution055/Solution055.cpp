@@ -3,10 +3,12 @@
 
 bool Solution055::canJump(vector<int> &nums)
 {
-    int last = nums.size()-1;
-    for(int i = last - 1; i >=0;--i)
+    int len = nums.size();
+    int maxReach = 0;
+    int start = 0;
+    for (; start < len && start <= maxReach; ++start)
     {
-        if(i + nums[i] >= last)
-            last=i;
+        maxReach = std::max(nums[start] + start, maxReach);
     }
+    return start == len;
 }

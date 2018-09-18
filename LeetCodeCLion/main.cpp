@@ -68,16 +68,20 @@ using namespace std;
 //#include "Tree/Solution404/Solution404.h"
 //#include "Tree/Solution508/Solution508.h"
 //#include "Tree/Solution199/Solution199.h"
-#include "Array/Solution904/Solution904.h"
+//#include "Array/Solution904/Solution904.h"
+#include "Array/Solution055/Solution055.h"
 
 int main()
 {
-    Solution904 solution904;
-    vector<int> tree = {3,3,3,1,2,1,1,2,3,3,4};
+    Solution055 solution055;
+    vector<int> nums = {2,3,1,1,4};
+    cout << solution055.canJump(nums) << endl;
+//    Solution904 solution904;
+//    vector<int> tree = {3,3,3,1,2,1,1,2,3,3,4};
 //    vector<int> tree = {1,2,1};
 //vector<int> tree = {0,0,1,1};
 //vector<int> tree = {1,0,1,4,1,4,1,2,3};
-    cout << solution904.totalFruit(tree);
+//    cout << solution904.totalFruit(tree);
 //    TreeNode* root = new TreeNode(1);
 //    root->left = new TreeNode(2);
 //    root->right = new TreeNode(3);

@@ -69,13 +69,16 @@ using namespace std;
 //#include "Tree/Solution508/Solution508.h"
 //#include "Tree/Solution199/Solution199.h"
 //#include "Array/Solution904/Solution904.h"
-#include "Array/Solution055/Solution055.h"
+//#include "Array/Solution055/Solution055.h"
+#include "String/Solution709/Solution709.h"
 
 int main()
 {
-    Solution055 solution055;
-    vector<int> nums = {2,3,1,1,4};
-    cout << solution055.canJump(nums) << endl;
+    Solution709 solution709;
+    cout << solution709.toLowerCase("Hello") << endl;
+//    Solution055 solution055;
+//    vector<int> nums = {2,3,1,1,4};
+//    cout << solution055.canJump(nums) << endl;
 //    Solution904 solution904;
 //    vector<int> tree = {3,3,3,1,2,1,1,2,3,3,4};
 //    vector<int> tree = {1,2,1};

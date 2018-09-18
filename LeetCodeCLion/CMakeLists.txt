@@ -113,4 +113,5 @@ add_executable(LeetCodeCLion main.cpp
         Array/Solution904/Solution904.cpp Array/Solution904/Solution904.h
         Array/Solution881/Solution881.cpp Array/Solution881/Solution881.h
         Matrix/Solution807/Solution807.cpp Matrix/Solution807/Solution807.h
-        String/Solution709/Solution709.cpp String/Solution709/Solution709.h)
+        String/Solution709/Solution709.cpp String/Solution709/Solution709.h
+        Map/Solution535/Solution535.cpp Map/Solution535/Solution535.h)

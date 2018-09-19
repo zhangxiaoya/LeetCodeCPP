@@ -70,12 +70,15 @@ using namespace std;
 //#include "Tree/Solution199/Solution199.h"
 //#include "Array/Solution904/Solution904.h"
 //#include "Array/Solution055/Solution055.h"
-#include "String/Solution709/Solution709.h"
+//#include "String/Solution709/Solution709.h"
+#include "Map/Solution299/Solution299.h"
 
 int main()
 {
-    Solution709 solution709;
-    cout << solution709.toLowerCase("Hello") << endl;
+    Solution299 solution299;
+    cout << solution299.getHint("1123", "0111") << endl;
+//    Solution709 solution709;
+//    cout << solution709.toLowerCase("Hello") << endl;
 //    Solution055 solution055;
 //    vector<int> nums = {2,3,1,1,4};
 //    cout << solution055.canJump(nums) << endl;

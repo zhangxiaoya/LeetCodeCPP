@@ -40,3 +40,4 @@ CMakeLists.txt.user*
 */cmake-build-debug/
 
 */.idea/
+a.out
